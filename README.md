@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=00CCCC&center=true&vCenter=true&width=800&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi&background=000000">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&center=true&vCenter=true&width=800&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi&duration=4000&color=00CCCC;00FFCC;00FFFF;00FF99">
 </p>
 
 # ML4S
