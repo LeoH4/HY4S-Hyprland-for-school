@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leohale/ML4S/main/assets/ML4S_gradient.svg" alt="ML4S Animated Banner">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi&duration=6000&color=00CCCC;66FFFF;99FFEE;33FFDD;00CCCC">
 </p>
-
 
 # ML4S
 **My Linux for School** – Hyprland rice on EndeavourOS, managed with chezmoi.
