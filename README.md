@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=00CCCC&center=true&vCenter=true&width=800&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi&background=000000">
 </p>
-
-<div style="background-color:#000000; color:#00FF00; padding:20px; font-family:'Fira Code', monospace;">
 
 # ML4S
 **My Linux for School** – Hyprland rice on EndeavourOS, managed with chezmoi.
