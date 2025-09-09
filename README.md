@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&center=true&vCenter=true&width=800&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi&duration=4000&color=00CCCC;00FFCC;00FFFF;00FF99">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Managed+with+chezmoi&duration=6000&color=00CCCC;66FFFF;99FFEE;33FFDD;00CCCC">
 </p>
 
 # ML4S
 **My Linux for School** – Hyprland rice on EndeavourOS, managed with chezmoi.
 
----
+<p align="center">────────────────────────────</p>
 
 ## Progress Checklist
 - [ ] Set up chezmoi for dotfile management
@@ -17,14 +17,14 @@
 - [ ] Add custom scripts
 - [ ] Write install/setup script
 
----
+<p align="center">────────────────────────────</p>
 
 ## Current Work
-- Experimenting with Hyprpanel vs Waybar
-- Testing different terminal configs (Kitty vs Alacritty)
-- Adjusting Hyprland keybinds
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&center=true&vCenter=true&width=700&lines=Experimenting+with+Hyprpanel+vs+Waybar;Testing+terminal+configs;Adjusting+keybinds&duration=5000&color=00CCCC;66FFFF">
+</p>
 
----
+<p align="center">────────────────────────────</p>
 
 ## Future Plans
 - Add notification daemon (swaync or mako)
@@ -32,7 +32,7 @@
 - Add color scheme integration (pywal/matugen)
 - Improve README with screenshots
 
----
+<p align="center">────────────────────────────</p>
 
 ## Packages / Components
 - **Window Manager:** Hyprland
@@ -43,12 +43,12 @@
 - **Notifications:** swaync / mako (TBD)
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look
 
----
+<p align="center">────────────────────────────</p>
 
 ## Screenshots
 *(coming soon)*
 
----
+<p align="center">────────────────────────────</p>
 
 ## Setup
 Managed with [chezmoi](https://www.chezmoi.io/).
