@@ -8,13 +8,13 @@
 
 <div align="center"> 
 <a href="https://github.com/LeoJHale/HY4S/commits/main">
-  <img src="https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=C7D5B2&logo=git&logoColor=A6B48A&labelColor=DDE5C9" alt="Last Commit">
 </a>
 <a href="https://github.com/LeoJHale/HY4S/stargazers">
-  <img src="https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=86dbd7&logo=andela&logoColor=D9E0EE&labelColor=1E202B" alt="Stars">
+  <img src="https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=C7D5B2&logo=starship&logoColor=A6B48A&labelColor=DDE5C9" alt="Stars">
 </a>
 <a href="https://github.com/LeoJHale/HY4S">
-  <img src="https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=86dbce&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B" alt="Repo Size">
+  <img src="https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=C7D5B2&logo=protondrive&logoColor=A6B48A&labelColor=DDE5C9" alt="Repo Size">
 </a>
 </div>
 
@@ -29,6 +29,8 @@
 <a href="#screenshots"><kbd> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
 <a href="#progress-checklist"><kbd> <br> Progress <br> </kbd></a>&ensp;&ensp;
 <a href="#future-plans"><kbd> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
+<a href="#packages"><kbd> <br> Packages <br> </kbd></a>&ensp;&ensp;
+<a href="#keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
 <a href="#setup"><kbd> <br> Setup <br> </kbd></a>&ensp;&ensp;
 <a href="https://t.me/+OxKQy7Y6XWxjOTQ9"><kbd> <br> Telegram <br> </kbd></a>
 
@@ -121,7 +123,8 @@
 
 <p align="center">────────────────────────────</p>
 
-## Packages / Components
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Packages" />
+
 - **Window Manager:** Hyprland  
 - **Bar:** (deciding) Waybar / Hyprpanel  
 - **Terminal:** Kitty / Alacritty  
@@ -129,6 +132,13 @@
 - **Shell:** Zsh + Starship  
 - **Notifications:** swaync / mako (TBD)  
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
+
+<p align="center">────────────────────────────</p>
+
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Keybinds" />
+
+**Coming Soon**  
+- Keybind cheatsheet will be added here
 
 <p align="center">────────────────────────────</p>
 
