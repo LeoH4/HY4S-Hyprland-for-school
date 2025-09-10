@@ -27,7 +27,7 @@
 
 ## <a id="overview"></a>Overview
 <div align="center">
-   <img src="https://your-screenshot-url-here.png" alt="ML4S Rice Screenshot" width="80%">
+   **Coming Soon**
 </div>
 <p align="center">A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.</p>
 
@@ -38,60 +38,49 @@
 <details>
 <summary>Theme</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/1.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/2.png?raw=true" width="49%"><br>
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/3.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/4.png?raw=true" width="49%"><br>
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/5.png?raw=true" width="99%">
+**Coming Soon**
 </p>
 </details>
 
 <details>
 <summary>Theme Select</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/6.png?raw=true" width="99%">
+**Coming Soon**
 </p>
 </details>
 
 <details>
 <summary>Wallpaper</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/wallpaper/1.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/wallpaper/2.png?raw=true" width="49%">
+**Coming Soon**
 </p>
 </details>
 
 <details>
 <summary>Lock Screen</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/lock-1.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/lock-2.png?raw=true" width="49%"><br>
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/lock-3.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/selecttheme.png?raw=true" width="49%">
+**Coming Soon**
 </p>
 </details>
 
 <details>
 <summary>Menu</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/menu/1.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/menu/2.png?raw=true" width="49%">
+**Coming Soon**
 </p>
 </details>
 
 <details>
 <summary>Power Menu</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/power/1.png?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/power/2.png?raw=true" width="49%">
+**Coming Soon**
 </p>
 </details>
 
 <details>
 <summary>Login Screen (sddm)</summary>
 <p align="center">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/sddm/sddm1.jpg?raw=true" width="49%">
-<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/sddm/sddm2.jpg?raw=true" width="49%">
+**Coming Soon**
 </p>
 </details>
 
