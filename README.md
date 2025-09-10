@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=00CCCC;66FFFF;99FFEE;33FFDD;00CCCC">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=HY4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=00CCCC;66FFFF;99FFEE;33FFDD;00CCCC">
 </p>
 
 <div align="center">
@@ -7,27 +7,28 @@
 </div>
 
 <div align="center"> 
-![](https://img.shields.io/github/last-commit/LeoJHale/ML4S-My-linux-for-school?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/stars/LeoJHale/ML4S-My-linux-for-school?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/repo-size/LeoJHale/ML4S-My-linux-for-school?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+[![Last Commit](https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/commits/main)
+[![Stars](https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=86dbd7&logo=andela&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=86dbce&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S)
 </div>
 
 <p align="center">────────────────────────────</p>
 
 <!-- Nav Bar -->
 <div align="center">
-<a href="#overview"><kbd>Overview</kbd></a>&ensp;
+<h3><a href="#overview"><kbd>Overview</kbd></a>&ensp;
 <a href="#screenshots"><kbd>Screenshots</kbd></a>&ensp;
 <a href="#progress-checklist"><kbd>Progress</kbd></a>&ensp;
 <a href="#future-plans"><kbd>Future Plans</kbd></a>&ensp;
-<a href="#setup"><kbd>Setup</kbd></a>
+<a href="#setup"><kbd>Setup</kbd></a></h3>
 </div>
+
 
 <p align="center">────────────────────────────</p>
 
 ## <a id="overview"></a>Overview
 <div align="center">
-   **Coming Soon**
+**Coming Soon**
 </div>
 <p align="center">A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.</p>
 
@@ -95,6 +96,8 @@
 - [ ] Add color scheme integration (pywal/matugen)  
 - [ ] Add hypridle, hyprlock, and wlogout  
 
+<p align="center">────────────────────────────</p>
+
 ## <a id="future-plans"></a>Future Plans
 - Finish the bar layout  
 - Add audio controls  
@@ -105,9 +108,20 @@
 
 <p align="center">────────────────────────────</p>
 
+## Packages / Components
+- **Window Manager:** Hyprland  
+- **Bar:** (deciding) Waybar / Hyprpanel  
+- **Terminal:** Kitty / Alacritty  
+- **Launcher:** Rofi / Wofi  
+- **Shell:** Zsh + Starship  
+- **Notifications:** swaync / mako (TBD)  
+- **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
+
+<p align="center">────────────────────────────</p>
+
 ## <a id="setup"></a>Setup
 Managed with [chezmoi](https://www.chezmoi.io/):
 
 ```bash
-chezmoi init git@github.com:LeoJHale/ML4S-My-linux-for-school.git
+chezmoi init git@github.com:LeoJHale/HY4S.git
 chezmoi apply
