@@ -16,13 +16,17 @@
 
 <!-- Nav Bar -->
 <div align="center">
-<h1><a href="#overview"><kbd>Overview</kbd></a>&ensp;
-<a href="#screenshots"><kbd>Screenshots</kbd></a>&ensp;
-<a href="#progress-checklist"><kbd>Progress</kbd></a>&ensp;
-<a href="#future-plans"><kbd>Future Plans</kbd></a>&ensp;
-<a href="#setup"><kbd>Setup</kbd></a></h1>
-</div>
 
+<br>
+
+<a href="#overview"><kbd> <br> Overview <br> </kbd></a>&ensp;&ensp;
+<a href="#screenshots"><kbd> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
+<a href="#progress-checklist"><kbd> <br> Progress <br> </kbd></a>&ensp;&ensp;
+<a href="#future-plans"><kbd> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
+<a href="#setup"><kbd> <br> Setup <br> </kbd></a>&ensp;&ensp;
+<a href="https://t.me/+OxKQy7Y6XWxjOTQ9"><kbd> <br> Telegram <br> </kbd></a>
+
+</div><br><br>
 
 <p align="center">────────────────────────────</p>
 
