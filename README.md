@@ -8,17 +8,15 @@
 [![Stars](https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/stargazers)
 [![Repo Size](https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S)
 
-<p align="left">────────────────────────────</p>
-
 <!-- Nav Bar -->
 <div align="left">
-<a href="#overview"><kbd style="font-size:18px;"> Overview </kbd></a>&ensp;&ensp;
-<a href="#screenshots"><kbd style="font-size:18px;"> Screenshots </kbd></a>&ensp;&ensp;
-<a href="#progress-checklist"><kbd style="font-size:18px;"> Progress </kbd></a>&ensp;&ensp;
-<a href="#future-plans"><kbd style="font-size:18px;"> Future Plans </kbd></a>&ensp;&ensp;
-<a href="#packages"><kbd style="font-size:18px;"> Packages </kbd></a>&ensp;&ensp;
-<a href="#keybinds"><kbd style="font-size:18px;"> Keybinds </kbd></a>&ensp;&ensp;
-<a href="#setup"><kbd style="font-size:18px;"> Setup </kbd></a>&ensp;&ensp;
+<a href="#overview"><kbd style="font-size:25px;"> Overview </kbd></a>&ensp;&ensp;
+<a href="#showca"><kbd style="font-size:25px;"> Screenshots </kbd></a>&ensp;&ensp;
+<a href="#progress-checklist"><kbd style="font-size:25px;"> Progress </kbd></a>&ensp;&ensp;
+<a href="#future-plans"><kbd style="font-size:25px;"> Future Plans </kbd></a>&ensp;&ensp;
+<a href="#packages"><kbd style="font-size:25px;"> Packages </kbd></a>&ensp;&ensp;
+<a href="#keybinds"><kbd style="font-size:25px;"> Keybinds </kbd></a>&ensp;&ensp;
+<a href="#setup"><kbd style="font-size:25px;"> Setup </kbd></a>&ensp;&ensp;
 </div><br>
 
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
@@ -26,20 +24,25 @@
 **Coming Soon**  
 A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.
 
+<details>
+<summary>Features</summary>
+**Coming Soon**
+</details>
+
+<details>
+<summary>Keybinds</summary>
+**Coming Soon**
+</details>
+
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Screenshots" />
 
 <details>
-<summary>Theme</summary>
+<summary>Wallpapers</summary>
 **Coming Soon**
 </details>
 
 <details>
-<summary>Theme Select</summary>
-**Coming Soon**
-</details>
-
-<details>
-<summary>Wallpaper</summary>
+<summary>Wallpaper select</summary>
 **Coming Soon**
 </details>
 
