@@ -100,11 +100,11 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Packages" />
 
 - **Window Manager:** Hyprland  
-- **Bar:** (deciding) Waybar / Hyprpanel  
-- **Terminal:** Kitty / Alacritty  
-- **Launcher:** Rofi / Wofi  
+- **Bar:** Waybar 
+- **Terminal:** Kitty
+- **Launcher:** Rofi
 - **Shell:** Zsh + Starship  
-- **Notifications:** swaync / mako (TBD)  
+- **Notifications:** swaync
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
 Managed with [chezmoi](https://www.chezmoi.io/):
