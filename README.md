@@ -41,8 +41,7 @@
 
 # ML4S
 **My Linux for School** – A polished Hyprland setup built on EndeavourOS, designed to balance **aesthetics and productivity** for daily use.  
-This configuration focuses on efficiency with a tiling window manager, dynamic theming based on wallpapers, and carefully chosen tools for school and workflow.  
-Custom scripts and utilities streamline tasks like launching apps, managing windows, and keeping the environment consistent across reboots.  
+This configuration focuses on efficiency with a tiling window manager, dynamic theming based on wallpapers, and carefully chosen tools for school and workflow.   
 
 <p align="center">────────────────────────────</p>
 
@@ -61,13 +60,18 @@ Custom scripts and utilities streamline tasks like launching apps, managing wind
 ## Progress Checklist
 - [ ] Set up the base for hyprland - terminal, bar, shell
 - [ ] Set up chezmoi for dotfile management
+- [ ] Add notification daemon (swaync or mako)
+- [ ] Add rofi/wofi launcher setup
+- [ ] Add hyprpaper and swww for wallpaper management
+- [ ] Add color scheme integration (pywal/matugen)
+- [ ] Add hypridle, hyprlock and wlogout
 
 <p align="center">────────────────────────────</p>
 
 ## Future Plans
-- Add notification daemon (swaync or mako)
-- Add rofi/wofi launcher setup
-- Add color scheme integration (pywal/matugen)
+- Finish the bar layout
+- Custom scripts for theming of rofi, swaync and hypridle, hyprlock, wlogout
+- Add a keybind command cheat sheet that updates custom keybinds
 - Improve README with screenshots
 
 <p align="center">────────────────────────────</p>
@@ -80,11 +84,6 @@ Custom scripts and utilities streamline tasks like launching apps, managing wind
 - **Shell:** Zsh + Starship
 - **Notifications:** swaync / mako (TBD)
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look
-
-<p align="center">────────────────────────────</p>
-
-## Screenshots
-*(coming soon)*
 
 <p align="center">────────────────────────────</p>
 
