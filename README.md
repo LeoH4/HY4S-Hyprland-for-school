@@ -18,7 +18,6 @@
 </a>
 </div>
 
-
 <p align="center">────────────────────────────</p>
 
 <!-- Nav Bar -->
@@ -34,8 +33,6 @@
 <a href="https://t.me/+OxKQy7Y6XWxjOTQ9"><kbd> <br> Telegram <br> </kbd></a>
 
 </div><br><br>
-
-<p align="center">────────────────────────────</p>
 
 ## <a id="overview"></a>Overview
 <div align="center">
