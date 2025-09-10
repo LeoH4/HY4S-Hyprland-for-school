@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-    <h1>【 ML4S 】</h1>
+    <h1>【 leo-hale's Hyprland dotfiles 】</h1>
 </div>
 
 <div align="center"> 
