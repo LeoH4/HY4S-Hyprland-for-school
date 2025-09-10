@@ -6,13 +6,11 @@
     <h1>【 leo-hale's Hyprland dotfiles 】</h1>
 </div>
 
-<div align="center">
+<div align="center"> 
 
-<!-- REPLACE OWNER/REPO with your exact repository path (case-sensitive as shown on GitHub) -->
-<!-- Example: OWNER=LeoJHale  REPO=ML4S (or ML4S---My-linux-for-school if that's the repo name and it's public) -->
-![](https://img.shields.io/github/last-commit/OWNER/REPO?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/stars/OWNER/REPO?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/repo-size/OWNER/REPO?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/last-commit/LeoJHale/ML4S-My-linux-for-school?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/LeoJHale/ML4S-My-linux-for-school?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/repo-size/LeoJHale/ML4S-My-linux-for-school?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
 
 </div>
 
@@ -42,17 +40,12 @@
 
 
 # ML4S
-**My Linux for School (ML4S)** is a customized **Hyprland rice on EndeavourOS**, built to balance aesthetics with productivity.  
-It layers curated configs, lightweight scripts and utilities over a minimal Arch base to create a fast, distraction-free environment for study and development.
-
-Key highlights include:
-- **Dynamic theming**: system-wide color schemes driven by wallpaper palettes.  
-- **Streamlined navigation**: fast app launchers, consistent keybinds, and window rules for efficient multitasking.  
-- **Practical tooling**: small, useful integrations tailored for schoolwork and coding (shortcuts, screenshot tools, media controls).
-
-The goal of ML4S is a **functional, visually pleasing Linux setup** that makes studying and working smoother.
+**My Linux for School** – A polished Hyprland setup built on EndeavourOS, designed to balance **aesthetics and productivity** for daily use.  
+This configuration focuses on efficiency with a tiling window manager, dynamic theming based on wallpapers, and carefully chosen tools for school and workflow.  
+Custom scripts and utilities streamline tasks like launching apps, managing windows, and keeping the environment consistent across reboots.  
 
 <p align="center">────────────────────────────</p>
+
 ## Showcase
 
 | Status bar & widgets | Window management |
@@ -66,8 +59,8 @@ The goal of ML4S is a **functional, visually pleasing Linux setup** that makes s
 <p align="center">────────────────────────────</p>
 
 ## Progress Checklist
-- [ ] Set up the base for Hyprland – terminal, bar, shell
-- [ ] Configure chezmoi for dotfile management
+- [ ] Set up the base for hyprland - terminal, bar, shell
+- [ ] Set up chezmoi for dotfile management
 
 <p align="center">────────────────────────────</p>
 
@@ -80,13 +73,13 @@ The goal of ML4S is a **functional, visually pleasing Linux setup** that makes s
 <p align="center">────────────────────────────</p>
 
 ## Packages / Components
-- **Window Manager:** Hyprland  
-- **Bar:** (deciding) Waybar / Hyprpanel  
-- **Terminal:** Kitty / Alacritty  
-- **Launcher:** Rofi / Wofi  
-- **Shell:** Zsh + Starship  
-- **Notifications:** swaync / mako (TBD)  
-- **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
+- **Window Manager:** Hyprland
+- **Bar:** (deciding) Waybar / Hyprpanel
+- **Terminal:** Kitty / Alacritty
+- **Launcher:** Rofi / Wofi
+- **Shell:** Zsh + Starship
+- **Notifications:** swaync / mako (TBD)
+- **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look
 
 <p align="center">────────────────────────────</p>
 
@@ -99,5 +92,5 @@ The goal of ML4S is a **functional, visually pleasing Linux setup** that makes s
 Managed with [chezmoi](https://www.chezmoi.io/).
 
 ```bash
-chezmoi init git@github.com:OWNER/REPO.git
+chezmoi init git@github.com:LeoJHale/ML4S-My-linux-for-school.git
 chezmoi apply
