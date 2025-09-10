@@ -48,14 +48,6 @@
 - [ ] Set up the base for hyprland - terminal, bar, shell
 - [ ] Set up chezmoi for dotfile management
 
-
-<p align="center">────────────────────────────</p>
-
-## Current Work
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&center=true&vCenter=true&width=700&lines=Experimenting+with+Hyprpanel+vs+Waybar;Testing+terminal+configs;Adjusting+keybinds&duration=5000&color=00CCCC;66FFFF">
-</p>
-
 <p align="center">────────────────────────────</p>
 
 ## Future Plans
