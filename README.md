@@ -19,19 +19,14 @@
 <a href="#packages"><kbd style="font-size:18px;"> Packages </kbd></a>&ensp;&ensp;
 <a href="#keybinds"><kbd style="font-size:18px;"> Keybinds </kbd></a>&ensp;&ensp;
 <a href="#setup"><kbd style="font-size:18px;"> Setup </kbd></a>&ensp;&ensp;
-<a href="https://t.me/+OxKQy7Y6XWxjOTQ9"><kbd style="font-size:18px;"> Telegram </kbd></a>
 </div><br>
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
 
 **Coming Soon**  
 A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Screenshots" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Screenshots" />
 
 <details>
 <summary>Theme</summary>
@@ -68,9 +63,7 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 **Coming Soon**
 </details>
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Progress" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Progress" />
 
 - [x] Set up the base for Hyprland – terminal, bar, shell  
 - [x] Set up chezmoi for dotfile management  
@@ -80,9 +73,7 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 - [ ] Add color scheme integration (pywal/matugen)  
 - [ ] Add hypridle, hyprlock, and wlogout  
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Future+Plans" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Future+Plans" />
 
 - Finish the bar layout  
 - Add audio controls  
@@ -91,9 +82,7 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 - Add a keybind command cheat sheet that updates custom keybinds  
 - Improve README with screenshots  
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Packages" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Packages" />
 
 - **Window Manager:** Hyprland  
 - **Bar:** (deciding) Waybar / Hyprpanel  
@@ -103,16 +92,12 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 - **Notifications:** swaync / mako (TBD)  
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Keybinds" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Keybinds" />
 
 **Coming Soon**  
 - Keybind cheatsheet will be added here
 
-<p align="left">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Setup" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Setup" />
 
 Managed with [chezmoi](https://www.chezmoi.io/):
 
