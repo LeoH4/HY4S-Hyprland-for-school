@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2">
 </p>
 
-<h1>【 My Hyprland dotfiles 】</h1>
+<h1>【 WIP - My Hyprland dotfiles 】</h1>
 
 [![Last Commit](https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/commits/main)
 [![Stars](https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/stargazers)
@@ -74,8 +74,8 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Progress" />
 
-- [x] Set up the base for Hyprland – terminal, bar, shell  
-- [x] Set up chezmoi for dotfile management  
+- [ ] Set up the base for Hyprland – terminal, bar, shell  
+- [ ] Set up chezmoi for dotfile management  
 - [ ] Add notification daemon (swaync or mako)  
 - [ ] Add rofi/wofi launcher setup  
 - [ ] Add hyprpaper and swww for wallpaper management  
