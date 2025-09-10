@@ -6,7 +6,7 @@
     <h1>【 My Hyprland dotfiles 】</h1>
 </div>
 
-<div align="center">
+<div align="center"> 
 <a href="https://github.com/LeoJHale/HY4S/commits/main">
   <img src="https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B" alt="Last Commit">
 </a>
@@ -34,7 +34,10 @@
 
 </div><br><br>
 
-## <a id="overview"></a>Overview
+<p align="center">────────────────────────────</p>
+
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Overview" />
+
 <div align="center">
 **Coming Soon**
 </div>
@@ -42,7 +45,7 @@
 
 <p align="center">────────────────────────────</p>
 
-## <a id="screenshots"></a>Screenshots
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Screenshots" />
 
 <details>
 <summary>Theme</summary>
@@ -95,7 +98,8 @@
 
 <p align="center">────────────────────────────</p>
 
-## <a id="progress-checklist"></a>Progress Checklist
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Progress" />
+
 - [x] Set up the base for Hyprland – terminal, bar, shell  
 - [x] Set up chezmoi for dotfile management  
 - [ ] Add notification daemon (swaync or mako)  
@@ -106,7 +110,8 @@
 
 <p align="center">────────────────────────────</p>
 
-## <a id="future-plans"></a>Future Plans
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Future+Plans" />
+
 - Finish the bar layout  
 - Add audio controls  
 - Add screenshot function  
@@ -127,7 +132,8 @@
 
 <p align="center">────────────────────────────</p>
 
-## <a id="setup"></a>Setup
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=C7D5B2;DDE5C9;A6B48A&center=true&vCenter=true&width=500&lines=Setup" />
+
 Managed with [chezmoi](https://www.chezmoi.io/):
 
 ```bash
