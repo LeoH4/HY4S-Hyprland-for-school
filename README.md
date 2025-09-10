@@ -8,9 +8,9 @@
 
 <div align="center"> 
 
-![](https://img.shields.io/github/last-commit/leo-hale/hyprland-dots?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/stars/leo-hale/hyprland-dots?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/repo-size/leo-hale/hyprland-dots?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/last-commit/LeoJHale/ML4S---My-linux-for-school?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/LeoJHale/ML4S---My-linux-for-school?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/repo-size/LeoJHale/ML4S---My-linux-for-school?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
 
 </div>
 
@@ -40,7 +40,15 @@
 
 
 # ML4S
-**My Linux for School** – Hyprland rice on EndeavourOS. A highly configured Arch setup based on the window tiling manager Hyprland, with custom and borrowed scripts to improve productivity while still being beautiful. Including, dynamic colouring for all UI based on wallpaper colour schemes, app launchers and more powered with rofi and many more. 
+**My Linux for School (ML4S)** is a customized Hyprland rice on EndeavourOS, designed to balance aesthetics with productivity.  
+It builds on a minimal Arch base and adds carefully tuned configs, scripts, and utilities to create a fast, distraction-free workflow.  
+
+Key highlights include:
+- **Dynamic theming**: Wallpaper-aware color schemes across the system.  
+- **Streamlined navigation**: App launchers, keybinds, and window rules for efficient multitasking.  
+- **Practical tools**: Integration of everyday utilities for schoolwork and coding.  
+
+The goal of ML4S is to provide a **functional yet visually appealing Linux setup** that makes studying and working smoother.
 
 <p align="center">────────────────────────────</p>
 
@@ -57,8 +65,8 @@
 <p align="center">────────────────────────────</p>
 
 ## Progress Checklist
-- [ ] Set up the base for hyprland - terminal, bar, shell
-- [ ] Set up chezmoi for dotfile management
+- [ ] Set up the base for Hyprland – terminal, bar, shell
+- [ ] Configure chezmoi for dotfile management
 
 <p align="center">────────────────────────────</p>
 
@@ -71,13 +79,13 @@
 <p align="center">────────────────────────────</p>
 
 ## Packages / Components
-- **Window Manager:** Hyprland
-- **Bar:** (deciding) Waybar / Hyprpanel
-- **Terminal:** Kitty / Alacritty
-- **Launcher:** Rofi / Wofi
-- **Shell:** Zsh + Starship
-- **Notifications:** swaync / mako (TBD)
-- **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look
+- **Window Manager:** Hyprland  
+- **Bar:** (deciding) Waybar / Hyprpanel  
+- **Terminal:** Kitty / Alacritty  
+- **Launcher:** Rofi / Wofi  
+- **Shell:** Zsh + Starship  
+- **Notifications:** swaync / mako (TBD)  
+- **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
 <p align="center">────────────────────────────</p>
 
@@ -90,5 +98,5 @@
 Managed with [chezmoi](https://www.chezmoi.io/).
 
 ```bash
-chezmoi init git@github.com:USERNAME/ML4S.git
+chezmoi init git@github.com:LeoJHale/ML4S---My-linux-for-school.git
 chezmoi apply
