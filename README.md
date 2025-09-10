@@ -46,12 +46,13 @@
 
 ## Showcase
 
-| Feature | Description |
-|:---|:---------------|
-| Status bar & widgets | (screenshot here) |
-| Window management | (screenshot here) |
-| Dynamic colors | (screenshot here) |
-| Terminal & apps | (screenshot here) |
+| Status bar & widgets | Window management |
+|:---:|:---:|
+| (screenshot here) | (screenshot here) |
+
+| Dynamic colors | Terminal & apps |
+|:---:|:---:|
+| (screenshot here) | (screenshot here) |
 
 <p align="center">────────────────────────────</p>
 
