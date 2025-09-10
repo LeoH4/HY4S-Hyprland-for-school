@@ -16,11 +16,11 @@
 
 <!-- Nav Bar -->
 <div align="center">
-<h3><a href="#overview"><kbd>Overview</kbd></a>&ensp;
+<h1><a href="#overview"><kbd>Overview</kbd></a>&ensp;
 <a href="#screenshots"><kbd>Screenshots</kbd></a>&ensp;
 <a href="#progress-checklist"><kbd>Progress</kbd></a>&ensp;
 <a href="#future-plans"><kbd>Future Plans</kbd></a>&ensp;
-<a href="#setup"><kbd>Setup</kbd></a></h3>
+<a href="#setup"><kbd>Setup</kbd></a></h1>
 </div>
 
 
