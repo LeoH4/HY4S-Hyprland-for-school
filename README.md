@@ -1,106 +1,76 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=HY4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2;DCFFC2;DCFFC2;DCFFC2;DCFFC2">
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2;DCFFC2;DCFFC2;DCFFC2;DCFFC2">
 </p>
 
-<div align="center">
-    <h1>【 My Hyprland dotfiles 】</h1>
-</div>
+<h1>【 My Hyprland dotfiles 】</h1>
 
-<div align="center"> 
-<a href="https://github.com/LeoJHale/HY4S/commits/main">
-  <img src="https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B" alt="Last Commit">
-</a>
-<a href="https://github.com/LeoJHale/HY4S/stargazers">
-  <img src="https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B" alt="Stars">
-</a>
-<a href="https://github.com/LeoJHale/HY4S">
-  <img src="https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B" alt="Repo Size">
-</a>
-</div>
+[![Last Commit](https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/commits/main)
+[![Stars](https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S)
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
 <!-- Nav Bar -->
-<div align="center">
+<div align="left">
+<a href="#overview"><kbd style="font-size:18px;"> Overview </kbd></a>&ensp;&ensp;
+<a href="#screenshots"><kbd style="font-size:18px;"> Screenshots </kbd></a>&ensp;&ensp;
+<a href="#progress-checklist"><kbd style="font-size:18px;"> Progress </kbd></a>&ensp;&ensp;
+<a href="#future-plans"><kbd style="font-size:18px;"> Future Plans </kbd></a>&ensp;&ensp;
+<a href="#packages"><kbd style="font-size:18px;"> Packages </kbd></a>&ensp;&ensp;
+<a href="#keybinds"><kbd style="font-size:18px;"> Keybinds </kbd></a>&ensp;&ensp;
+<a href="#setup"><kbd style="font-size:18px;"> Setup </kbd></a>&ensp;&ensp;
+<a href="https://t.me/+OxKQy7Y6XWxjOTQ9"><kbd style="font-size:18px;"> Telegram </kbd></a>
+</div><br>
 
-<br>
+<p align="left">────────────────────────────</p>
 
-<a href="#overview"><kbd> <br> Overview <br> </kbd></a>&ensp;&ensp;
-<a href="#screenshots"><kbd> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
-<a href="#progress-checklist"><kbd> <br> Progress <br> </kbd></a>&ensp;&ensp;
-<a href="#future-plans"><kbd> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
-<a href="#packages"><kbd> <br> Packages <br> </kbd></a>&ensp;&ensp;
-<a href="#keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
-<a href="#setup"><kbd> <br> Setup <br> </kbd></a>&ensp;&ensp;
-<a href="https://t.me/+OxKQy7Y6XWxjOTQ9"><kbd> <br> Telegram <br> </kbd></a>
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
 
-</div><br><br>
+**Coming Soon**  
+A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Overview" />
-
-<div align="center">
-**Coming Soon**
-</div>
-<p align="center">A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.</p>
-
-<p align="center">────────────────────────────</p>
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Screenshots" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Screenshots" />
 
 <details>
 <summary>Theme</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
 <details>
 <summary>Theme Select</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
 <details>
 <summary>Wallpaper</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
 <details>
 <summary>Lock Screen</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
 <details>
 <summary>Menu</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
 <details>
 <summary>Power Menu</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
 <details>
 <summary>Login Screen (sddm)</summary>
-<p align="center">
 **Coming Soon**
-</p>
 </details>
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Progress" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Progress" />
 
 - [x] Set up the base for Hyprland – terminal, bar, shell  
 - [x] Set up chezmoi for dotfile management  
@@ -110,9 +80,9 @@
 - [ ] Add color scheme integration (pywal/matugen)  
 - [ ] Add hypridle, hyprlock, and wlogout  
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Future+Plans" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Future+Plans" />
 
 - Finish the bar layout  
 - Add audio controls  
@@ -121,9 +91,9 @@
 - Add a keybind command cheat sheet that updates custom keybinds  
 - Improve README with screenshots  
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Packages" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Packages" />
 
 - **Window Manager:** Hyprland  
 - **Bar:** (deciding) Waybar / Hyprpanel  
@@ -133,16 +103,16 @@
 - **Notifications:** swaync / mako (TBD)  
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Keybinds" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Keybinds" />
 
 **Coming Soon**  
 - Keybind cheatsheet will be added here
 
-<p align="center">────────────────────────────</p>
+<p align="left">────────────────────────────</p>
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=DCFFC2&center=true&vCenter=true&width=500&lines=Setup" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Setup" />
 
 Managed with [chezmoi](https://www.chezmoi.io/):
 
