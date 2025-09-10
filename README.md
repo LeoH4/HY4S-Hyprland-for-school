@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;An+aesthetic+productive+layout.&duration=6000&color=00CCCC;66FFFF;99FFEE;33FFDD;00CCCC">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=1000&center=true&vCenter=true&width=900&lines=ML4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=00CCCC;66FFFF;99FFEE;33FFDD;00CCCC">
 </p>
 
 <div align="center">
@@ -25,17 +25,6 @@
   - **Dynamic colors**: Wallpaper-based themes (Matugen / Pywal / Wallust)
   - **Waybar / Panels**: Custom status bar with modules
   - **Lightweight install**: Easy to set up on Arch or Arch-based distros
-</details>
-
-<details> 
-  <summary>Installation</summary>
-
-   - Clone this repo:
-     ```bash
-     git clone https://github.com/leo-hale/hyprland-dots ~/.config/hypr
-     ```
-   - Install required packages (see `arch-packages/`)
-   - Restart Hyprland
 </details>
 
 <details>
