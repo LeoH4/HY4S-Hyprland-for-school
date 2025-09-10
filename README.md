@@ -10,13 +10,13 @@
 
 <!-- Nav Bar -->
 <div align="left">
-<a href="#overview"><kbd style="font-size:25px;"> Overview </kbd></a>&ensp;&ensp;
-<a href="#showca"><kbd style="font-size:25px;"> Screenshots </kbd></a>&ensp;&ensp;
-<a href="#progress-checklist"><kbd style="font-size:25px;"> Progress </kbd></a>&ensp;&ensp;
-<a href="#future-plans"><kbd style="font-size:25px;"> Future Plans </kbd></a>&ensp;&ensp;
-<a href="#packages"><kbd style="font-size:25px;"> Packages </kbd></a>&ensp;&ensp;
-<a href="#keybinds"><kbd style="font-size:25px;"> Keybinds </kbd></a>&ensp;&ensp;
-<a href="#setup"><kbd style="font-size:25px;"> Setup </kbd></a>&ensp;&ensp;
+  <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
+  <a href="#showca"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
+  <a href="#progress-checklist"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Progress <br> </kbd></a>&ensp;&ensp;
+  <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
+  <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
+  <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>
 </div><br>
 
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
@@ -31,7 +31,8 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 
 <details>
 <summary>Keybinds</summary>
-**Coming Soon**
+**Coming Soon**  
+- Keybind cheatsheet will be added here
 </details>
 
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Screenshots" />
@@ -66,6 +67,11 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 **Coming Soon**
 </details>
 
+
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=36&lines=Setup" />
+**Coming soon**
+- Install instructions coming soon, maybe even an install script
+
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&lines=Progress" />
 
 - [x] Set up the base for Hyprland – terminal, bar, shell  
@@ -85,7 +91,7 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 - Add a keybind command cheat sheet that updates custom keybinds  
 - Improve README with screenshots  
 
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Packages" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=36&lines=Packages" />
 
 - **Window Manager:** Hyprland  
 - **Bar:** (deciding) Waybar / Hyprpanel  
@@ -94,13 +100,6 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 - **Shell:** Zsh + Starship  
 - **Notifications:** swaync / mako (TBD)  
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Keybinds" />
-
-**Coming Soon**  
-- Keybind cheatsheet will be added here
-
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=200&color=DCFFC2&center=false&vCenter=true&width=500&height=28&lines=Setup" />
 
 Managed with [chezmoi](https://www.chezmoi.io/):
 
