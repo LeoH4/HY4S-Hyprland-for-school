@@ -44,6 +44,17 @@
 
 <p align="center">────────────────────────────</p>
 
+## Showcase
+
+| Feature | Description |
+|:---|:---------------|
+| Status bar & widgets | (screenshot here) |
+| Window management | (screenshot here) |
+| Dynamic colors | (screenshot here) |
+| Terminal & apps | (screenshot here) |
+
+<p align="center">────────────────────────────</p>
+
 ## Progress Checklist
 - [ ] Set up the base for hyprland - terminal, bar, shell
 - [ ] Set up chezmoi for dotfile management
