@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+My+Linux+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+Hyprland+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2">
 </p>
 
 <h1>【 My Hyprland dotfiles 】</h1>
