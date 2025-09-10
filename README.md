@@ -7,90 +7,117 @@
 </div>
 
 <div align="center"> 
-
 ![](https://img.shields.io/github/last-commit/LeoJHale/ML4S-My-linux-for-school?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
 ![](https://img.shields.io/github/stars/LeoJHale/ML4S-My-linux-for-school?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
 ![](https://img.shields.io/github/repo-size/LeoJHale/ML4S-My-linux-for-school?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
-
 </div>
 
+<p align="center">────────────────────────────</p>
+
+<!-- Nav Bar -->
 <div align="center">
-    <h2>• overview •</h2>
+<a href="#overview"><kbd>Overview</kbd></a>&ensp;
+<a href="#screenshots"><kbd>Screenshots</kbd></a>&ensp;
+<a href="#progress-checklist"><kbd>Progress</kbd></a>&ensp;
+<a href="#future-plans"><kbd>Future Plans</kbd></a>&ensp;
+<a href="#setup"><kbd>Setup</kbd></a>
 </div>
 
-<details> 
-  <summary>Features</summary>
-     
-  - **Hyprland setup**: Clean and minimal config
-  - **Dynamic colors**: Wallpaper-based themes (Matugen / Pywal / Wallust)
-  - **Waybar / Panels**: Custom status bar with modules
-  - **Lightweight install**: Easy to set up on Arch or Arch-based distros
+<p align="center">────────────────────────────</p>
+
+## <a id="overview"></a>Overview
+<div align="center">
+   <img src="https://your-screenshot-url-here.png" alt="ML4S Rice Screenshot" width="80%">
+</div>
+<p align="center">A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.</p>
+
+<p align="center">────────────────────────────</p>
+
+## <a id="screenshots"></a>Screenshots
+
+<details>
+<summary>Theme</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/1.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/2.png?raw=true" width="49%"><br>
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/3.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/4.png?raw=true" width="49%"><br>
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/5.png?raw=true" width="99%">
+</p>
 </details>
 
 <details>
-  <summary>Software overview</summary>
-
-  | Software | Purpose |
-  | ------------- | ------------- |
-  | [Hyprland](https://github.com/hyprwm/hyprland) | Wayland compositor |
-  | [Waybar](https://github.com/Alexays/Waybar) (or Hyprpanel) | Status bar |
-  | [Matugen / Pywal / Wallust](https://github.com) | Wallpaper-based color generation |
-  | [Kitty / Alacritty](https://github.com) | Terminal emulator |
+<summary>Theme Select</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/theme/6.png?raw=true" width="99%">
+</p>
 </details>
 
+<details>
+<summary>Wallpaper</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/wallpaper/1.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/wallpaper/2.png?raw=true" width="49%">
+</p>
+</details>
 
-# ML4S
-**My Linux for School** – A polished Hyprland setup built on EndeavourOS, designed to balance **aesthetics and productivity** for daily use.  
-This configuration focuses on efficiency with a tiling window manager, dynamic theming based on wallpapers, and carefully chosen tools for school and workflow.   
+<details>
+<summary>Lock Screen</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/lock-1.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/lock-2.png?raw=true" width="49%"><br>
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/lock-3.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/lockscreen/selecttheme.png?raw=true" width="49%">
+</p>
+</details>
 
-<p align="center">────────────────────────────</p>
+<details>
+<summary>Menu</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/menu/1.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/menu/2.png?raw=true" width="49%">
+</p>
+</details>
 
-## Showcase
+<details>
+<summary>Power Menu</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/power/1.png?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf-v2/power/2.png?raw=true" width="49%">
+</p>
+</details>
 
-| Status bar & widgets | Window management |
-|:---:|:---:|
-| (screenshot here) | (screenshot here) |
-
-| Dynamic colors | Terminal & apps |
-|:---:|:---:|
-| (screenshot here) | (screenshot here) |
-
-<p align="center">────────────────────────────</p>
-
-## Progress Checklist
-- [ ] Set up the base for hyprland - terminal, bar, shell
-- [ ] Set up chezmoi for dotfile management
-- [ ] Add notification daemon (swaync or mako)
-- [ ] Add rofi/wofi launcher setup
-- [ ] Add hyprpaper and swww for wallpaper management
-- [ ] Add color scheme integration (pywal/matugen)
-- [ ] Add hypridle, hyprlock and wlogout
-
-<p align="center">────────────────────────────</p>
-
-## Future Plans
-- Finish the bar layout
-- Add audio controls
-- Add screenshot function
-- Custom scripts for theming of rofi, swaync and hypridle, hyprlock, wlogout
-- Add a keybind command cheat sheet that updates custom keybinds
-- Improve README with screenshots
-
-<p align="center">────────────────────────────</p>
-
-## Packages / Components
-- **Window Manager:** Hyprland
-- **Bar:** (deciding) Waybar / Hyprpanel
-- **Terminal:** Kitty / Alacritty
-- **Launcher:** Rofi / Wofi
-- **Shell:** Zsh + Starship
-- **Notifications:** swaync / mako (TBD)
-- **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look
+<details>
+<summary>Login Screen (sddm)</summary>
+<p align="center">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/sddm/sddm1.jpg?raw=true" width="49%">
+<img src="https://github.com/shell-ninja/Screen-Shots/blob/main/hyprconf/sddm/sddm2.jpg?raw=true" width="49%">
+</p>
+</details>
 
 <p align="center">────────────────────────────</p>
 
-## Setup
-Managed with [chezmoi](https://www.chezmoi.io/).
+## <a id="progress-checklist"></a>Progress Checklist
+- [x] Set up the base for Hyprland – terminal, bar, shell  
+- [x] Set up chezmoi for dotfile management  
+- [ ] Add notification daemon (swaync or mako)  
+- [ ] Add rofi/wofi launcher setup  
+- [ ] Add hyprpaper and swww for wallpaper management  
+- [ ] Add color scheme integration (pywal/matugen)  
+- [ ] Add hypridle, hyprlock, and wlogout  
+
+## <a id="future-plans"></a>Future Plans
+- Finish the bar layout  
+- Add audio controls  
+- Add screenshot function  
+- Custom scripts for theming rofi, swaync, hypridle, hyprlock, wlogout  
+- Add a keybind command cheat sheet that updates custom keybinds  
+- Improve README with screenshots  
+
+<p align="center">────────────────────────────</p>
+
+## <a id="setup"></a>Setup
+Managed with [chezmoi](https://www.chezmoi.io/):
 
 ```bash
 chezmoi init git@github.com:LeoJHale/ML4S-My-linux-for-school.git
