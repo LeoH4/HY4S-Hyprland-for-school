@@ -6,11 +6,18 @@
     <h1>【 My Hyprland dotfiles 】</h1>
 </div>
 
-<div align="center"> 
-[![Last Commit](https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/commits/main)
-[![Stars](https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=86dbd7&logo=andela&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/stargazers)
-[![Repo Size](https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=86dbce&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S)
+<div align="center">
+<a href="https://github.com/LeoJHale/HY4S/commits/main">
+  <img src="https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B" alt="Last Commit">
+</a>
+<a href="https://github.com/LeoJHale/HY4S/stargazers">
+  <img src="https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=86dbd7&logo=andela&logoColor=D9E0EE&labelColor=1E202B" alt="Stars">
+</a>
+<a href="https://github.com/LeoJHale/HY4S">
+  <img src="https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=86dbce&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B" alt="Repo Size">
+</a>
 </div>
+
 
 <p align="center">────────────────────────────</p>
 
