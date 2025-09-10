@@ -70,6 +70,8 @@ This configuration focuses on efficiency with a tiling window manager, dynamic t
 
 ## Future Plans
 - Finish the bar layout
+- Add audio controls
+- Add screenshot function
 - Custom scripts for theming of rofi, swaync and hypridle, hyprlock, wlogout
 - Add a keybind command cheat sheet that updates custom keybinds
 - Improve README with screenshots
