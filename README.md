@@ -75,39 +75,31 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 **Coming soon**  
 - Install instructions coming soon, maybe even an install script
 
-<a id="progress"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Progress" />
-
-- [ ] Set up the base for Hyprland – terminal, bar, shell  
-- [ ] Set up chezmoi for dotfile management  
-- [ ] Add notification daemon (swaync or mako)  
-- [ ] Add rofi/wofi launcher setup  
-- [ ] Add hyprpaper and swww for wallpaper management  
-- [ ] Add color scheme integration (pywal/matugen)  
-- [ ] Add hypridle, hyprlock, and wlogout  
-
 <a id="future-plans"></a>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Future+Plans" />
 
-- Finish the bar layout  
-- Add audio controls  
-- Add screenshot function  
-- Custom scripts for theming rofi, swaync, hypridle, hyprlock, wlogout  
-- Add a keybind command cheat sheet that updates custom keybinds  
-- Improve README with screenshots  
+- [ ] Add color scheme integration (pywal/matugen)
+- [ ] Add additional themes with a theme selector (rofi)
 
 <a id="packages"></a>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Packages" />
 
 - **Window Manager:** Hyprland  
 - **Bar:** Waybar 
-- **Terminal:** Kitty
+- **Terminal:** Foot
 - **Launcher:** Rofi
-- **Shell:** Zsh + Starship  
+- **Shell:** Fish 
 - **Notifications:** swaync
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
 Managed with [chezmoi](https://www.chezmoi.io/):
+
+<b id="Inspriration"></b>
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Inspiration" />
+
+- https://github.com/mylinuxforwork/dotfiles
+- https://github.com/end-4/dots-hyprland?tab=readme-ov-file
+- **And many more...**
 
 ```bash
 chezmoi init git@github.com:LeoJHale/HY4S.git
