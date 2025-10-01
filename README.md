@@ -11,12 +11,11 @@
 <!-- Nav Bar -->
 <div align="left">
   <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
+  <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
   <a href="#screenshots"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
-  <a href="#progress"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Progress <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>
   <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
   <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
-  <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>
 </div><br>
 
 <a id="overview"></a>
