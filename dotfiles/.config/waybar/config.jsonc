@@ -1,0 +1,221 @@
+{
+    "layer": "top",
+    "position": "top",
+    "width": 0.7,
+    "height": 40,
+    "margin-top": 5,
+    "margin-left": 5,
+    "margin-right": 5,
+    "spacing": 2,
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/cava"],
+    "modules-center": ["custom/prev", "mpris", "custom/next"],
+    "modules-right": ["group/utilities", "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/power"],
+
+    "custom/launcher": {
+        "format": "󰣇",
+        "tooltip": false,
+        "on-click": "~/.config/rofi/launchers/type-1/launcher.sh"
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "󰲠",
+            "2": "󰲢",
+            "3": "󰲤",
+            "4": "󰲦",
+            "5": "󰲨",
+            "6": "󰲪",
+            "7": "󰲬",
+            "8": "󰲮",
+            "9": "󰲰",
+            "10": "󰿬"
+        },
+        "persistent-workspaces": {
+            "*": 5
+        }
+    },
+
+    "group/utilities": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-utilities",
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "custom/utilities-icon",
+            "custom/keybinds",
+            "custom/config-navigation",
+            "custom/clipse"
+        ]
+    },
+
+  "custom/utilities-icon": { 
+    "format": "",
+    "tooltip-format": "CPU: {}\nRAM: {}\nUptime: {}\nLoad: {}\nDisk: {}"
+     },
+
+    "group/power-battery": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-battery",
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "battery",
+            "power-profiles-daemon"
+        ]
+    },
+
+    "clock": {
+        "timezone": "Australia/Melbourne",
+        "tooltip-format": "<big>{:%A, %d-%m-%Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%d-%m %I:%M %p}"
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{icon}",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "on-click": "amixer -q set Master toggle"
+    },
+
+    "custom/cava": {
+        "exec": "~/.config/waybar/scripts/cava.sh",
+        "format": "♪ {}",
+        "on-click-middle": "playerctl play-pause",
+        "on-click-right": "playerctl next",
+        "on-click-left": "playerctl previous"
+    },
+
+    "custom/bluetooth": {
+        "exec": "~/.config/waybar/scripts/bluetooth.sh",
+        "interval": 2,
+        "format": "{}",
+        "tooltip": true,
+        "on-click": "blueman-manager",
+        "on-click-right": "bash -c 'state=$(bluetoothctl show | grep Powered | awk \"{print \\$2}\"); if [ \"$state\" = \"yes\" ]; then echo power off | bluetoothctl; else echo power on | bluetoothctl; fi'"
+    },
+
+    "custom/bluetooth-device": {
+        "exec": "~/.config/waybar/scripts/bluetooth-device-info.sh",
+        "interval": 5,
+        "format": "{}",
+        "exec-if": "bluetoothctl devices Connected | grep -q Device"
+    },
+
+    "network": {
+        "format-wifi": "{icon}",
+        "format-ethernet": "{icon}",
+        "format-linked": "{icon}",
+        "format-disconnected": "{icon}",
+        "format-icons": {
+            "wifi": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+            "ethernet": "󰈀",
+            "linked": "󰈁",
+            "disconnected": "󰤮"
+        },
+        "tooltip-format-wifi": "SSID: {essid}\nSignal: {signalStrength}%\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
+        "tooltip-format-ethernet": "IP: {ipaddr}\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
+        "tooltip-format-disconnected": "Disconnected",
+        "on-click": "nm-connection-editor"
+    },
+
+    "battery": {
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon}",
+    "format-charging": "{icon}",
+    "format-plugged": "{icon}",
+    "format-alt": "{icon}",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "format-icons-charging": ["󰂄", "󰂅", "󰂆", "󰂇", "󰂈", "󰂉", "󰂊", "󰂋", "󰂅"]
+    },
+
+
+    "custom/swaync": {
+        "exec": "echo '󰂚'",
+        "on-click": "swaync-client -op",
+        "interval": 0,
+        "tooltip": false
+    },
+
+    "custom/power": {
+        "format": "󰐥",
+        "tooltip": false,
+        "on-click": "wlogout"
+    },
+
+    "mpris": {
+        "format": "{title} - {artist}",
+        "max-length": 50,
+        "scrolling": true,
+        "scrolling-speed": 0.05,
+        "scrolling-separator": " • ",
+        "format-icons": {},
+        "tooltip": false
+    },
+
+    "custom/prev": {
+        "format": "󰒮",
+        "tooltip": false,
+        "on-click": "playerctl previous"
+    },
+
+    "custom/play": {
+        "format": "󰏤",
+        "tooltip": false,
+        "on-click": "playerctl play-pause"
+    },
+
+    "custom/next": {
+        "format": "󰒭",
+        "tooltip": false,
+        "on-click": "playerctl next"
+    },
+
+    "custom/clipse": {
+    "format": "",
+    "tooltip": true,
+    "tooltip-format": "Clipboard History",
+    "on-click": "clipse-gui"
+    
+    },
+    
+    "custom/keybinds": {
+    "format": "󰧹",
+    "tooltip": true,
+    "tooltip-format": "Hyprland Keybinds",
+    "on-click": "~/.config/rofi/scripts/keybinds.sh"
+    
+    },
+    "custom/config-navigation": {
+    "format": "󰈞",
+    "tooltip": true,
+    "tooltip-format": "Config Navigator",
+    "on-click": "~/.config/rofi/scripts/config-navigation.sh"
+  
+
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+        "tooltip": true,
+        "format-icons": {
+            "default": "",
+            "performance": "",
+            "balanced": "",
+            "power-saver": ""
+        },
+        "interval": 5
+    }
+}
