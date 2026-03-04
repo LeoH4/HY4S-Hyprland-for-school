@@ -4,9 +4,9 @@
 
 <h1>【 My Hyprland dotfiles 】</h1>
 
-[![Last Commit](https://img.shields.io/github/last-commit/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/commits/main)
-[![Stars](https://img.shields.io/github/stars/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S/stargazers)
-[![Repo Size](https://img.shields.io/github/repo-size/LeoJHale/HY4S?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoJHale/HY4S)
+[![Last Commit](https://img.shields.io/github/last-commit/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/commits/main)
+[![Stars](https://img.shields.io/github/stars/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school)
 
 <!-- Nav Bar -->
 <div align="left">
