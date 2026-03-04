@@ -103,5 +103,4 @@ Managed with [chezmoi](https://www.chezmoi.io/):
 ```bash
 chezmoi init git@github.com:LeoJHale/HY4S.git
 chezmoi apply
-test
 
