@@ -1,1 +1,1 @@
-stow -d ~/Projects/HY4S-Hyprland-for-school/ -t ~/ dotfiles
+stow -d ~/Projects/HY4S/ -t ~/ dotfiles
