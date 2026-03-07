@@ -13,7 +13,7 @@
   <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
   <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
   <a href="#screenshots"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>
+  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>&ensp;&ensp;
   <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
   <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
 </div><br>
@@ -21,19 +21,52 @@
 <a id="overview"></a>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
 
-**Coming Soon**  
-A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a clean tiling WM layout, and productivity-focused tools.
+A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity focused features, while still maintaining a clean aesthetic.
 
 <details>
 <summary>Features</summary>
-**Coming Soon**
+  
+- Config navigator
+- Keybind cheetsheet
+- Package updator
+- Highly configurable
+- Scrolling layout (works the same with dwindle)
+- Theme selector (coming soon)
+  
 </details>
 
 <a id="keybinds"></a>
 <details>
 <summary>Keybinds</summary>
-**Coming Soon**  
-- Keybind cheatsheet will be added here
+
+| Keybind | Action |
+|---------|--------|
+| `Super + Enter` | Terminal |
+| `Super + Q` | Kill active window |
+| `Super + L` | Exit Hyprland |
+| `Super + E` | File Manager |
+| `Super + K` | Keybinds list |
+| `Super + N` | Config quick-nav |
+| `Super + V` | Toggle floating window |
+| `Ctrl + Super + Enter` | Application launcher |
+| `Super + B` | Browser |
+| `Super + W` | Reload Waybar |
+| `Super + F` | Fullscreen |
+| `Super + S` | Screenshot (region) |
+| `Super + C` | Clipboard manager |
+| `Super + .` | Emoji picker |
+| `Super + ←` | Move focus left |
+| `Super + →` | Move focus right |
+| `Super + ↑` | Move focus up |
+| `Super + ↓` | Move focus down |
+| `Super + 1-10` | Switch to workspace 1-10 |
+| `Super + Shift + 1-10` | Move window to workspace 1-10 |
+| `Super + Ctrl` | Toggle scratchpad |
+| `Super + Ctrl + S` | Move to scratchpad |
+| `Super + Scroll Down` | Next workspace |
+| `Super + Scroll Up` | Previous workspace |
+| `Super + LMB (drag)` | Move window |
+| `Super + RMB (drag)` | Resize window |
 </details>
 
 <a id="screenshots"></a>
@@ -41,7 +74,11 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 
 <details>
 <summary>Wallpapers</summary>
-**Coming Soon**
+<img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/0ab8c43e-b87e-4d06-96a5-775de745f255" /> <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/1940bf84-8ac0-404a-824c-7ea1d04276cf" /> <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/8e92b132-3238-482e-abab-06bdf0214546" /> <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/4e78b2d3-714b-42ca-bdb7-9dfae3667ab3" />
+
+
+
+
 </details>
 
 <details>
@@ -91,7 +128,7 @@ A polished Hyprland setup on EndeavourOS with dynamic wallpaper-based themes, a 
 - **Notifications:** swaync
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
-Managed with [chezmoi](https://www.chezmoi.io/):
+Managed with GNUstow
 
 <b id="Inspriration"></b>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Inspiration" />
@@ -99,8 +136,4 @@ Managed with [chezmoi](https://www.chezmoi.io/):
 - https://github.com/mylinuxforwork/dotfiles
 - https://github.com/end-4/dots-hyprland?tab=readme-ov-file
 - **And many more...**
-
-```bash
-chezmoi init git@github.com:LeoJHale/HY4S.git
-chezmoi apply
 
