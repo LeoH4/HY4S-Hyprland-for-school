@@ -7,9 +7,9 @@
     "margin-left": 5,
     "margin-right": 5,
     "spacing": 2,
-    "modules-left": ["custom/launcher", "hyprland/workspaces"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/updates"],
     "modules-center": ["custom/prev", "mpris", "custom/next"],
-    "modules-right": ["group/utilities", "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
+    "modules-right": ["group/utilities",  "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
 
     "custom/launcher": {
         "format": "󰣇",
@@ -38,6 +38,7 @@
         }
     },
 
+  
     "group/utilities": {
         "orientation": "horizontal",
         "drawer": {
@@ -60,6 +61,17 @@
     "exec": "~/.config/waybar/scripts/system-info.sh",
    
     "tooltip-format": "{}"
+},
+
+ "custom/updates": {
+    "exec": "~/.config/waybar/scripts/updates.sh",
+    "interval": 3600,
+    "format": "󰚰 {}",
+    "tooltip": true,
+    "tooltip-format": "{} packages need updating",
+    "on-click": "~/.config/waybar/scripts/updates.sh run",
+    "on-click-right": "~/.config/waybar/scripts/updates.sh"
+
 },
 
     "group/power-battery": {
@@ -173,8 +185,8 @@
             "shutdown": "shutdown",
             "reboot": "reboot",
             "suspend": "systemctl suspend",
-            "hibernate": "systemctl hibernate",
-        },
+            "hibernate": "systemctl hibernate"
+        }
 },
 
     "mpris": {

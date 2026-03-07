@@ -450,3 +450,20 @@ tooltip label {
 }
 
 
+
+#custom-updates {
+    background: #689d6a;
+    color: #3c3836;
+    border-radius: 6px;
+    padding: 1px 6px;
+    margin: 1px;
+    font-size: 16px;
+    min-width: 32px;
+    box-shadow: inset 0px -2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+#custom-updates:hover {
+    background: #8ec07c;
+    color: #fbf1c7;
+}
