@@ -1,15 +1,15 @@
 {
     "layer": "top",
     "position": "top",
-    "width": 0.7,
-    "height": 40,
+    "width": 0.7 ,
+    "height": 40, 
     "margin-top": 5,
     "margin-left": 5,
     "margin-right": 5,
     "spacing": 2,
-    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/cava"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces"],
     "modules-center": ["custom/prev", "mpris", "custom/next"],
-    "modules-right": ["group/utilities", "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/power"],
+    "modules-right": ["group/utilities", "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
 
     "custom/launcher": {
         "format": "󰣇",
@@ -53,10 +53,14 @@
         ]
     },
 
-  "custom/utilities-icon": { 
+     "custom/utilities-icon": { 
     "format": "",
-    "tooltip-format": "CPU: {}\nRAM: {}\nUptime: {}\nLoad: {}\nDisk: {}"
-     },
+    "tooltip": true,
+    "interval": 5,
+    "exec": "~/.config/waybar/scripts/system-info.sh",
+   
+    "tooltip-format": "{}"
+},
 
     "group/power-battery": {
         "orientation": "horizontal",
@@ -71,11 +75,12 @@
         ]
     },
 
-    "clock": {
-        "timezone": "Australia/Melbourne",
-        "tooltip-format": "<big>{:%A, %d-%m-%Y}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%d-%m %I:%M %p}"
-    },
+"clock": {
+    "timezone": "Australia/Melbourne",
+    "tooltip": true,
+    "tooltip-format": "<big>{:%A, %d-%m-%Y}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "{:%d-%m %I:%M %p}"
+},
 
     "pulseaudio": {
         "scroll-step": 5,
@@ -87,13 +92,15 @@
         "on-click": "amixer -q set Master toggle"
     },
 
-    "custom/cava": {
-        "exec": "~/.config/waybar/scripts/cava.sh",
-        "format": "♪ {}",
-        "on-click-middle": "playerctl play-pause",
-        "on-click-right": "playerctl next",
-        "on-click-left": "playerctl previous"
-    },
+   "custom/cava": {
+    "exec": "~/.config/waybar/scripts/cava.sh",
+    "format": "♪ {}",
+    "return-type": "",
+    "interval": "twice",
+    "on-click-middle": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-click-left": "playerctl previous"
+},
 
     "custom/bluetooth": {
         "exec": "~/.config/waybar/scripts/bluetooth.sh",
@@ -112,6 +119,7 @@
     },
 
     "network": {
+	"tooltip": "true",
         "format-wifi": "{icon}",
         "format-ethernet": "{icon}",
         "format-linked": "{icon}",
@@ -126,20 +134,27 @@
         "tooltip-format-ethernet": "IP: {ipaddr}\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
         "tooltip-format-disconnected": "Disconnected",
         "on-click": "nm-connection-editor"
-    },
+    }, 
 
-    "battery": {
+
+
+"battery": {
     "states": {
         "warning": 30,
         "critical": 15
     },
+    "tooltip": true,
     "format": "{icon}",
-    "format-charging": "{icon}",
-    "format-plugged": "{icon}",
-    "format-alt": "{icon}",
+    "format-charging": "󰂄",
+    "format-plugged": "󰚥",
+    "format-alt": "{capacity}% {icon}",
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-    "format-icons-charging": ["󰂄", "󰂅", "󰂆", "󰂇", "󰂈", "󰂉", "󰂊", "󰂋", "󰂅"]
-    },
+    "tooltip-format": "Battery: {capacity}%\nTime to empty: {time}",
+    "tooltip-format-charging": "Battery: {capacity}%\nTime to full: {time}",
+    "tooltip-format-plugged": "Battery: {capacity}% - Fully charged"
+},
+
+
 
 
     "custom/swaync": {
@@ -149,11 +164,18 @@
         "tooltip": false
     },
 
-    "custom/power": {
-        "format": "󰐥",
+   "custom/powermenu": {
+    "format" : "⏻ ",
         "tooltip": false,
-        "on-click": "wlogout"
-    },
+        "menu": "on-click",
+        "menu-file": "~/.config/waybar/power_menu.xml",
+        "menu-actions": {
+            "shutdown": "shutdown",
+            "reboot": "reboot",
+            "suspend": "systemctl suspend",
+            "hibernate": "systemctl hibernate",
+        },
+},
 
     "mpris": {
         "format": "{title} - {artist}",

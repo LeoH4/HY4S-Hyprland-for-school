@@ -195,27 +195,45 @@ window#waybar {
 }
 
 /* ------------------- Launcher & Power ------------------- */
-#custom-launcher,
-#custom-power {
-    background: #fb3934;
-    color: #3c3836;
-    border-radius: 6px;
-    padding: 1px 3px;
-    margin: 1px;
-    min-width: 45px;
-    min-height: 16px;
-    font-size: 20px;
-    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+#custom-powermenu {
+ background: #fb3934;
+ color: #3c3836;
+ border-radius: 6px;
+ padding: 1px 3px;
+ margin: 2px;
+ min-width: 40px;
+ min-height: 18px;
+ font-size: 20px;
+ box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
+ transition: all 0.3s;
+ border-top-left-radius: 2px;
+ border-bottom-left-radius: 2px;
+ border-top-right-radius: 8px;
+ border-bottom-right-radius: 8px;
 }
+
+menu {
+    border-radius: 15px;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.4);   
+    background: #ebdbb2;
+    color: #3c3836;
+    margin: -110px 0 0 0; 
+    
+}
+menuitem {
+    border-radius: 15px;
+}
+
+menuitem:hover {
+	background: #504945;
+	color: #fbf1c7;
+}
+
 #custom-launcher {
     background: #b8bb26;
     border-radius: 8px 2px 2px 8px;
     padding: 1px 6px;
+    min-width: 40px;
     font-size: 22px;
     margin: 1px;
 }
@@ -223,7 +241,7 @@ window#waybar {
     background: #98971a;
     color: #3c3836;
 }
-#custom-power:hover {
+#custom-powermenu:hover {
     background: #cc241d;
     color: #fbf1c7;
 }
@@ -418,3 +436,17 @@ window#waybar {
 
 /* ------------------- Special animations ------------------- */
 @keyframes blink { to { opacity: 0.5; } }
+
+tooltip {
+    background: #ebdbb2;
+    border: 1px solid #45475a;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+tooltip label {
+    color: #3c3836;
+    font-size: 13px;
+}
+
+

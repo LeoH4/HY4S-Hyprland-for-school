@@ -6,8 +6,7 @@
 theme="$HOME/.config/rofi/launchers/type-1/style-5.rasi"
 
 # Base config directory
-CONFIG_DIR="/home/leoh/Projects/HY4S-Hyprland-for-school/dotfiles/.config"
-
+CONFIG_DIR="/home/leoh/Projects/HY4S/dotfiles/.config"
 # Directories to exclude from scanning
 exclude_dirs=(
     "BraveSoftware" "Code" "chromium" "discord" "Electron"
