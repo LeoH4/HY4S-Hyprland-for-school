@@ -28,7 +28,8 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
   
 - Config navigator
 - Keybind cheetsheet
-- Package updator
+- Easy package updating
+- Date tracking/countdown
 - Highly configurable
 - Scrolling layout (works the same with dwindle)
 - Theme selector (coming soon)
@@ -124,7 +125,7 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 - **Bar:** Waybar 
 - **Terminal:** Foot
 - **Launcher:** Rofi
-- **Shell:** Fish 
+- **Shell:** Fish - omf
 - **Notifications:** swaync
 - **Extras:** playerctl, brightnessctl, grim/slurp (screenshots), nwg-look  
 
