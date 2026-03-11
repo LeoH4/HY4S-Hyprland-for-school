@@ -29,7 +29,7 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 - Config navigator
 - Keybind cheetsheet
 - Easy package updating
-- Date tracking/countdown
+- Date tracking/task countdown
 - Highly configurable
 - Scrolling layout (works the same with dwindle)
 - Theme selector (coming soon)
