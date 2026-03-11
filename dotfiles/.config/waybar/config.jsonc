@@ -9,7 +9,7 @@
     "spacing": 2,
     "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/updates"],
     "modules-center": ["custom/prev", "mpris", "custom/next"],
-    "modules-right": ["group/utilities",  "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
+    "modules-right": ["custom/countdown", "group/utilities",  "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
 
     "custom/launcher": {
         "format": "󰣇",
@@ -237,6 +237,23 @@
     "tooltip": true,
     "tooltip-format": "Config Navigator",
     "on-click": "~/.config/rofi/scripts/config-navigation.sh"
+
+    },
+
+    
+          "custom/countdown":
+      {
+          "exec": "~/.config/waybar/scripts/countdown/countdown.sh",
+          "return-type": "json",
+          "format": "{}",
+          "interval": 3600,
+
+          /// To use tui on right click use something like this
+          ///"on-click-right": "foot ~/.config/waybar/scripts/countdown/countdown.sh --show-tui",	
+
+          "on-click-right": "killall rofi || bash ~/.config/waybar/scripts/countdown/countdown.sh --show-rofi",
+          "on-scroll-up": "~/.config/waybar/scripts/countdown/countdown.sh --scroll-up",
+          "on-scroll-down": "~/.config/waybar/scripts/countdown/countdown.sh --scroll-down"
   
 
     },

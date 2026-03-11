@@ -16,7 +16,7 @@ window#waybar {
 
 /* ------------------- Boxes inside the bar ------------------- */
 #waybar > box {
-    margin: 1px;
+    margin: 2px;
     padding: 1px;
     background-color: #282828;
     border-radius: 6px;
@@ -30,7 +30,7 @@ window#waybar {
     color: #3c3836;
     border-radius: 2px;
     background: #ebdbb2;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 20px;
     box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.4);
     transition: all 0.3s;
@@ -58,7 +58,7 @@ window#waybar {
     color: #3c3836;
     border-radius: 8px;
     padding: 1px 4px;
-    margin: 1px;
+    margin: 2px 1px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.4);
     font-size: 14px;
     font-weight: 900;
@@ -78,7 +78,7 @@ window#waybar {
     background: #ebdbb2;
     color: #3c3836;
     padding: 1px 4px;
-    margin: 1px;
+    margin: 2px 1px;
     border-radius: 6px;
     min-width: 24px;
     font-size: 20px;
@@ -98,7 +98,7 @@ window#waybar {
     background: #ebdbb2;
     color: #458588;
     border-left: 4px solid #b8bb26;
-    margin: 2px 2px;
+    margin: 2px 1px;
     padding: 1px 4px;
     border-radius: 8px;
 }
@@ -109,7 +109,7 @@ window#waybar {
     color: #3c3836;
     border-radius: 2px;
     padding: 2px 2px;
-    margin: 2px 2px;
+    margin: 2px 1px;
     font-weight: 900;
     font-size: 14px;
     min-width: 30px;
@@ -124,7 +124,7 @@ window#waybar {
     background: #ebdbb2;
     border-radius: 2px;
     padding: 1px 3px;
-    margin: 1px; 
+    margin: 2px 1px;
     color: #3c3836;
     font-size: 20px;
     min-width: 32px;
@@ -144,7 +144,7 @@ window#waybar {
     background: #458588;
     color: #3c3836;
     padding: 1px 3px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 20px;
     min-width: 32px;
     border-radius: 8px 2px 2px 8px;
@@ -162,8 +162,7 @@ window#waybar {
     background: #83a598;
     color: #3c3836;
     padding: 1px 6px;
-    margin: 1px;
-    margin-left: 0;
+    margin: 2px 1px;
     font-size: 16px;
     min-width: 32px;
     border-radius: 2px 8px 8px 2px;
@@ -195,54 +194,54 @@ window#waybar {
 }
 
 /* ------------------- Launcher & Power ------------------- */
-#custom-powermenu {
- background: #fb3934;
- color: #3c3836;
- border-radius: 6px;
- padding: 1px 3px;
- margin: 2px;
- min-width: 40px;
- min-height: 18px;
- font-size: 20px;
- box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
- transition: all 0.3s;
- border-top-left-radius: 2px;
- border-bottom-left-radius: 2px;
- border-top-right-radius: 8px;
- border-bottom-right-radius: 8px;
-}
-
-menu {
-    border-radius: 15px;
-    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.4);   
-    background: #ebdbb2;
-    color: #3c3836;
-    margin: -110px 0 0 0; 
-    
-}
-menuitem {
-    border-radius: 15px;
-}
-
-menuitem:hover {
-	background: #504945;
-	color: #fbf1c7;
-}
-
 #custom-launcher {
     background: #b8bb26;
     border-radius: 8px 2px 2px 8px;
     padding: 1px 6px;
     min-width: 40px;
     font-size: 22px;
-    margin: 1px;
+    margin: 2px 1px;
+    margin-left: 2px;
 }
 #custom-launcher:hover {
     background: #98971a;
     color: #3c3836;
 }
+
+#custom-powermenu {
+    background: #fb3934;
+    color: #3c3836;
+    border-radius: 6px;
+    padding: 1px 3px;
+    margin: 2px 1px;
+    margin-right: 2px;
+    min-width: 40px;
+    min-height: 18px;
+    font-size: 20px;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 #custom-powermenu:hover {
     background: #cc241d;
+    color: #fbf1c7;
+}
+
+menu {
+    border-radius: 15px;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.4);
+    background: #ebdbb2;
+    color: #3c3836;
+    margin: -110px 0 0 0;
+}
+menuitem {
+    border-radius: 15px;
+}
+menuitem:hover {
+    background: #504945;
     color: #fbf1c7;
 }
 
@@ -252,9 +251,7 @@ menuitem:hover {
     color: #3c3836;
     border-radius: 8px 2px 2px 8px;
     padding: 2px 6px;
-    margin: 2px;
-    margin-right: 1px;
-    margin-left: 2px;
+    margin: 2px 1px;
     min-width: 40px;
     font-size: 20px;
     box-shadow: inset 0px -2px 4px rgba(0,0,0,0.2);
@@ -278,7 +275,7 @@ menuitem:hover {
     color: #3c3836;
     border-radius: 2px 8px 8px 2px;
     padding: 1px 3px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 20px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
@@ -304,9 +301,9 @@ menuitem:hover {
 /* Power profiles (hidden in drawer) */
 #power-profiles-daemon.not-battery {
     background: #ebdbb2;
-    color: #3c3836; 
+    color: #3c3836;
     padding: 1px 3px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 22px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
@@ -331,7 +328,7 @@ menuitem:hover {
     color: #3c3836;
     border-radius: 2px 8px 8px 2px;
     padding: 1px 6px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 22px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
@@ -351,8 +348,8 @@ menuitem:hover {
     color: #3c3836;
     border-radius: 2px;
     padding: 1px 3px;
-    margin: 1px;
-    font-size: 22px;
+    margin: 2px 1px;
+    font-size: 20px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
@@ -369,9 +366,9 @@ menuitem:hover {
 #custom-keybinds {
     background: #ebdbb2;
     color: #3c3836;
-    border-radius: 8px 2px 2px 8px;
+    border-radius: 2px 2px 2px 2px;
     padding: 1px 3px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 22px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
@@ -388,7 +385,7 @@ menuitem:hover {
     color: #3c3836;
     border-radius: 2px;
     padding: 1px 3px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 22px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
@@ -405,7 +402,7 @@ menuitem:hover {
     color: #3c3836;
     border-radius: 2px 2px 2px 2px;
     padding: 1px 3px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 20px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
@@ -421,10 +418,10 @@ menuitem:hover {
 #power-profiles-daemon {
     background: #ebdbb2;
     color: #3c3836;
-    border-radius: 8px 2px 2px 8px;
+    border-radius: 2px 2px 2px 2px;
     padding: 1px 3px;
-    margin: 1px;
-    font-size: 22px;
+    margin: 2px 1px;
+    font-size: 20px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
@@ -450,14 +447,13 @@ tooltip label {
     font-size: 13px;
 }
 
-
-
+/* ------------------- Updates ------------------- */
 #custom-updates {
     background: #689d6a;
     color: #3c3836;
     border-radius: 6px;
     padding: 1px 6px;
-    margin: 1px;
+    margin: 2px 1px;
     font-size: 16px;
     min-width: 32px;
     box-shadow: inset 0px -2px 4px rgba(0,0,0,0.2);
@@ -467,4 +463,44 @@ tooltip label {
 #custom-updates:hover {
     background: #8ec07c;
     color: #fbf1c7;
+}
+
+/* ------------------- Countdown Timer ------------------- */
+#custom-countdown {
+    background: #ebdbb2;
+    color: #3c3836;
+    border-radius: 8px 2px 2px 8px;
+    padding: 1px 3px;
+    margin: 2px 1px;
+    font-size: 14px;
+    font-weight: 900;
+    min-width: 32px;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+#custom-countdown:hover {
+    background: #504945;
+    color: #fbf1c7;
+}
+
+#custom-countdown.expired {
+    background: #fb4934;
+    color: #3c3836;
+    animation-name: blink-critical;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-critical {
+    0% {
+        background: #fb4934;
+        color: #3c3836;
+    }
+    100% {
+        background: #282828;
+        color: #fb4934;
+    }
 }

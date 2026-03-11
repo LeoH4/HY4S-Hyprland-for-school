@@ -1,0 +1,13 @@
+{
+  "state": {
+    "current_index": 0
+  },
+  "countdowns": [
+    {
+      "label": "test",
+      "start": "2026-03-12",
+      "end": "2026-04-04",
+      "format": "days"
+    }
+  ]
+}
