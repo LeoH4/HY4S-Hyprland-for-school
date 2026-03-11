@@ -439,7 +439,8 @@ menuitem:hover {
 
 tooltip {
     background: #ebdbb2;
-    border: 1px solid #45475a;
+    border: 2px solid #45475a;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     padding: 8px;
 }
