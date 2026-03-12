@@ -56,6 +56,8 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 | `Super + S` | Screenshot (region) |
 | `Super + C` | Clipboard manager |
 | `Super + .` | Emoji picker |
+| `Super + t` | Terminal scratchpad |
+| `Super + y` | NeoVim scratchpad |
 | `Super + ←` | Move focus left |
 | `Super + →` | Move focus right |
 | `Super + ↑` | Move focus up |
