@@ -1,58 +1,70 @@
 /* ========================================================================
-   SwayNC CSS Configuration - Gruvbox / Waybar Inspired
-   Rounded rectangle panel with green border
+   SwayNC CSS — Gruvbox Hard Dark
+   https://github.com/morhetz/gruvbox (hard contrast variant)
 ======================================================================== */
 
 /* ========================================================================
-   COLOR PALETTE
+   COLOR PALETTE — Gruvbox Hard Dark
 ======================================================================== */
-@define-color bg-primary #2C2A24;        /* Dark background - main canvas */
-@define-color bg-secondary #282828;      /* Secondary background - panels */
-@define-color bg-tertiary #3c3836;       /* Tertiary background - hover states */
-@define-color bg-selected #504945;       /* Selection background */
 
-@define-color fg-primary #ebdbb2;         /* Primary text - cream/off-white */
-@define-color fg-secondary #d5c4a1;      /* Secondary text - muted cream */
-@define-color fg-tertiary #bdae93;       /* Tertiary text - greyish cream */
-@define-color fg-disabled #665c54;       /* Disabled text - dark grey */
+/* Backgrounds */
+@define-color bg-hard        #1d2021;   /* hard bg — main canvas          */
+@define-color bg0            #282828;   /* normal bg — panels             */
+@define-color bg1            #3c3836;   /* bg+1 — subtle raised surfaces  */
+@define-color bg2            #504945;   /* bg+2 — selection / hover       */
+@define-color bg3            #665c54;   /* bg+3 — borders, dividers       */
+@define-color bg4            #7c6f64;   /* bg+4 — muted decorations       */
 
-@define-color accent-green #b8bb26;       /* Green border / focus */
-@define-color accent-orange #D08B57;      /* Warm orange accent */
-@define-color accent-red #B05A5A;         /* Error/critical red */
-@define-color accent-blue #7699A3;        /* Info blue */
-@define-color accent-purple #8D7AAE;      /* Purple accent */
-@define-color accent-yellow #fabd2f;      /* Yellow accent for emoji picker */
+/* Foregrounds */
+@define-color fg0            #f9f5d7;   /* fg0 — brightest text           */
+@define-color fg1            #ebdbb2;   /* fg1 — primary text             */
+@define-color fg2            #d5c4a1;   /* fg2 — secondary text           */
+@define-color fg3            #bdae93;   /* fg3 — tertiary / hints         */
+@define-color fg4            #a89984;   /* fg4 — disabled / placeholders  */
 
-@define-color border-primary #504945;     /* Default border color */
-@define-color border-focus #b8bb26;       /* Focus border - green accent */
+/* Accents */
+@define-color red            #cc241d;
+@define-color red-bright     #fb4934;
+@define-color green          #98971a;
+@define-color green-bright   #b8bb26;
+@define-color yellow         #d79921;
+@define-color yellow-bright  #fabd2f;
+@define-color blue           #458588;
+@define-color blue-bright    #83a598;
+@define-color purple         #b16286;
+@define-color purple-bright  #d3869b;
+@define-color aqua           #689d6a;
+@define-color aqua-bright    #8ec07c;
+@define-color orange         #d65d0e;
+@define-color orange-bright  #fe8019;
 
 /* ========================================================================
-   GLOBAL STYLES
+   GLOBAL
 ======================================================================== */
 * {
     outline: none;
     font-family: "Iosevka Nerd Font", monospace;
     font-size: 18px;
     text-shadow: none;
-    color: @fg-primary;
+    color: @fg1;
 }
 
 /* ========================================================================
-   CONTROL CENTER - Main notification panel
+   CONTROL CENTER
 ======================================================================== */
 .control-center {
-    background-color: @bg-primary;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.65);
-    border: 2px solid @border-focus;      /* green border */
-    border-radius: 12px;                   /* rounded rectangle */
+    background-color: @bg-hard;
+    border: 2px solid @green-bright;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.75);
     padding: 10px;
-    max-height: 90vh;                      /* keep it within the screen height */
-    overflow-y: auto;                      /* scroll if too many notifications */
-    margin: 10px;                           /* spacing from screen edges */
+    margin: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 /* ========================================================================
-   NOTIFICATION ROW & INDIVIDUAL NOTIFICATIONS
+   NOTIFICATION ROWS
 ======================================================================== */
 .control-center .notification-row .notification-background {
     border-radius: 8px;
@@ -60,10 +72,10 @@
 }
 
 .control-center .notification-row .notification-background .notification {
+    background-color: @bg0;
+    border: 1px solid @bg3;
     border-radius: 8px;
     margin-bottom: 5px;
-    background-color: @bg-primary;
-    border: 1px solid @fg-secondary;
 }
 
 .control-center .notification-row .notification-background .close-button {
@@ -80,17 +92,19 @@
 
 .summary {
     font-size: 1.1rem;
+    color: @fg0;
 }
 
 .time {
     font-size: 0.8rem;
+    color: @fg4;
 }
 
 .body {
     font-size: 1rem;
+    color: @fg2;
 }
 
-/* Notification Actions */
 .notification-action > button {
     padding: unset;
     margin: unset;
@@ -102,27 +116,29 @@
     font-weight: normal;
 }
 
-/* Notification Priority Styles */
+/* Priority variants */
 .notification.critical {
-    background-color: @accent-red;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.65);
+    background-color: @red;
+    border: 1px solid @red-bright;
     border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.65);
 }
 
 .notification.low,
 .notification.normal {
-    background-color: @bg-primary;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.65);
+    background-color: @bg0;
     border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
 }
 
-/* Close Button */
+/* Close button */
 .close-button {
     background-color: transparent;
+    color: @fg4;
 }
 
 .close-button:hover {
-    color: @accent-red;
+    color: @red-bright;
 }
 
 /* ========================================================================
@@ -131,128 +147,148 @@
 .notification-group-header,
 .notification-group-icon {
     font-size: 0.9rem;
+    color: @fg3;
 }
 
 .notification-group-collapse-button,
 .notification-group-close-all-button {
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.35);
-    background-color: @bg-tertiary;
+    background-color: @bg1;
     border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
 }
 
 .notification-group-collapse-button:hover {
-    background-color: @accent-blue;
+    background-color: @blue;
+    color: @fg0;
 }
 
 .notification-group-close-all-button:hover {
-    background-color: @accent-red;
+    background-color: @red-bright;
+    color: @fg0;
 }
 
 /* ========================================================================
-   SCROLLBARS & SLIDERS
+   SLIDERS & SCROLLBARS
 ======================================================================== */
 trough highlight {
-    background: @accent-blue;
+    background: @blue-bright;
     border-radius: 4px;
 }
 
 scale trough {
-    margin: 0rem 1rem;
-    background-color: @bg-tertiary;
+    margin: 0 1rem;
+    background-color: @bg1;
     min-height: 8px;
     min-width: 70px;
     border-radius: 4px;
 }
 
 slider {
-    background-color: @fg-primary;
+    background-color: @fg1;
     border-radius: 4px;
 }
 
 tooltip {
-    background-color: @bg-tertiary;
+    background-color: @bg1;
+    border: 1px solid @bg3;
     border-radius: 6px;
+    color: @fg1;
 }
 
 /* ========================================================================
-   WIDGETS
+   WIDGET — BUTTONS GRID
 ======================================================================== */
-
-/* BUTTONS GRID WIDGET - Quick action buttons */
 .widget-buttons-grid {
-    font-size: 1rem;
-    padding: 20px 20px;
+    padding: 20px;
     margin: unset;
+    font-size: 1rem;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button {
-    background: @bg-tertiary;
-    border: 1px solid @accent-green;
-    box-shadow: 0px 0px 10px @bg-primary;
-    border-radius: 8px;                     /* matching Waybar style */
+    background: @bg1;
+    border: 1px solid @green;
+    border-radius: 8px;
+    box-shadow: 0 0 10px @bg-hard;
     min-width: 60px;
     min-height: 30px;
     padding: 7px;
-    margin: 0 3px 0;
-    transition: all .5s ease;
+    margin: 0 3px;
+    transition: all 0.3s ease;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button:hover {
-    background: @bg-selected;
+    background: @bg2;
+    border-color: @green-bright;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
-    background: @accent-green;
+    background: @green;
+    color: @bg-hard;
+    border-color: @green-bright;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked:hover {
-    background: @accent-green;
+    background: @green-bright;
 }
 
-/* Hyprpicker Button Highlight (3rd button) */
+/* Hyprpicker (3rd button) */
 .widget-buttons-grid > flowbox > flowboxchild > button:nth-child(3):hover {
-    background-color: @accent-purple;
-    color: @fg-primary;
+    background-color: @purple;
+    border-color: @purple-bright;
+    color: @fg0;
 }
 
-/* Emoji Picker Button Highlight (5th button) */
+/* Emoji picker (5th button) */
 .widget-buttons-grid > flowbox > flowboxchild > button:nth-child(5):hover {
-    background-color: @accent-yellow;
-    color: @bg-primary;
+    background-color: @yellow;
+    border-color: @yellow-bright;
+    color: @bg-hard;
     font-size: 1.2rem;
 }
 
-/* MPRIS WIDGET - Media player controls */
+/* ========================================================================
+   WIDGET — MPRIS
+======================================================================== */
 .widget-mpris .widget-mpris-player {
+    background-color: @bg0;
+    border: 1px solid @bg3;
+    border-radius: 8px;
     padding: 16px;
     margin: 16px 5px;
-    background-color: @mpris-button-hover;
-    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
 .widget-mpris .widget-mpris-player .widget-mpris-album-art {
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.65);
 }
 
 .widget-mpris .widget-mpris-player .widget-mpris-title {
     font-weight: bold;
     font-size: 1.2rem;
-    color: @accent-purple;
-    margin: 0px 8px 8px 8px;
+    color: @aqua-bright;
+    margin: 0 8px 8px 8px;
 }
 
 .widget-mpris .widget-mpris-player .widget-mpris-subtitle {
     font-size: 1rem;
-    color: @accent-purple;
+    color: @fg3;
+}
+
+.widget-mpris .widget-mpris-player > box > button {
+    color: @fg2;
+    border-radius: 6px;
+    background: transparent;
 }
 
 .widget-mpris .widget-mpris-player > box > button:hover {
-    background-color: @mpris-button-hover;
+    background-color: @bg2;
+    color: @fg0;
 }
 
-/* VOLUME WIDGET - Audio controls */
+/* ========================================================================
+   WIDGET — VOLUME
+======================================================================== */
 .widget-volume {
     padding: 6px 5px 5px 5px;
     margin: unset;
@@ -261,78 +297,89 @@ tooltip {
 
 .widget-volume > box > button {
     border: none;
-    background-color: #3A372F;
-}
-.widget-volume > box > button:hover {
-    background-color: @accent-blue;
-    color: @fg-primary;
-}
-.widget-volume > box > button:active {
-    background-color: @accent-blue;
+    background-color: @bg1;
+    border-radius: 4px;
+    color: @fg2;
 }
 
-/* BACKLIGHT WIDGET - Brightness controls */
+.widget-volume > box > button:hover {
+    background-color: @blue;
+    color: @fg0;
+}
+
+.widget-volume > box > button:active {
+    background-color: @blue-bright;
+    color: @bg-hard;
+}
+
+/* ========================================================================
+   WIDGET — BACKLIGHT
+======================================================================== */
 .widget-backlight {
     padding: 0 0 3px 16px;
     margin: unset;
     font-size: 1.1rem;
+    color: @yellow;
 }
 
-/* DND WIDGET - Do Not Disturb toggle */
-.widget-dnd > label {
-    color: @accent-purple;
-}
+/* ========================================================================
+   WIDGET — DND
+======================================================================== */
 .widget-dnd {
     font-weight: bold;
-    margin: unset;
     padding: 20px 15px 15px 15px;
+    margin: unset;
+}
+
+.widget-dnd > label {
+    color: @orange-bright;
 }
 
 .widget-dnd > switch {
     font-size: initial;
     border-radius: 4px;
-    background: @bg-tertiary;
-    border: none;
+    background: @bg1;
+    border: 1px solid @bg3;
     box-shadow: none;
     padding: 3px;
 }
 
 .widget-dnd > switch:checked {
-    background: @accent-purple;
+    background: @orange;
+    border-color: @orange-bright;
 }
 
 .widget-dnd > switch slider {
-    background: @bg-primary;
+    background: @fg1;
     border-radius: 4px;
     min-width: 18px;
     min-height: 18px;
 }
 
-/* TITLE WIDGET - Header with clear all button */
+/* ========================================================================
+   WIDGET — TITLE
+======================================================================== */
 .widget-title {
-    padding: unset;
+    padding: 15px;
     margin: unset;
     font-weight: bold;
-    padding: 15px;
 }
 
 .widget-title > label {
     font-size: 1.5rem;
+    color: @fg0;
 }
 
 .widget-title > button {
-    padding: unset;
-    margin: unset;
-    text-shadow: none;
-    background: @accent-red;
+    background: @red;
     border: none;
-    box-shadow: none;
     border-radius: 4px;
-    padding: 0px 6px;
-    transition: all .7s ease;
+    padding: 0 6px;
+    color: @fg0;
+    transition: all 0.3s ease;
 }
 
 .widget-title > button:hover {
-    background: @accent-red;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.65);
+    background: @red-bright;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.65);
 }

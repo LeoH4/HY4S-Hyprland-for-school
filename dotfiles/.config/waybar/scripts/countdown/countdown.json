@@ -4,9 +4,9 @@
   },
   "countdowns": [
     {
-      "label": "test",
+      "label": "Finns bday",
       "start": "2026-03-12",
-      "end": "2026-04-04",
+      "end": "2026-03-14",
       "format": "days"
     }
   ]

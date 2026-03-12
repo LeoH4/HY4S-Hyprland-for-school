@@ -1,0 +1,4 @@
+accent_primary = "#83a598"    # blue — buttons, active states
+accent_secondary = "#458588"  # blue-bright — hover / secondary
+background = "#ebdbb2"        # bg-hard — main canvas
+foreground = "#1d2021"        # fg1 — primary text

@@ -7,9 +7,9 @@
     "margin-left": 5,
     "margin-right": 5,
     "spacing": 2,
-    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/updates"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/updates", "custom/countdown"],
     "modules-center": ["custom/prev", "mpris", "custom/next"],
-    "modules-right": ["custom/countdown", "group/utilities",  "custom/bluetooth", "custom/bluetooth-device", "network", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
+    "modules-right": ["group/utilities", "custom/orbit", "custom/bluetooth-device", "pulseaudio", "group/power-battery", "custom/swaync", "clock", "custom/powermenu"],
 
     "custom/launcher": {
         "format": "󰣇",
@@ -128,25 +128,16 @@
         "interval": 5,
         "format": "{}",
         "exec-if": "bluetoothctl devices Connected | grep -q Device"
+
     },
 
-    "network": {
-	"tooltip": "true",
-        "format-wifi": "{icon}",
-        "format-ethernet": "{icon}",
-        "format-linked": "{icon}",
-        "format-disconnected": "{icon}",
-        "format-icons": {
-            "wifi": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-            "ethernet": "󰈀",
-            "linked": "󰈁",
-            "disconnected": "󰤮"
-        },
-        "tooltip-format-wifi": "SSID: {essid}\nSignal: {signalStrength}%\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
-        "tooltip-format-ethernet": "IP: {ipaddr}\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
-        "tooltip-format-disconnected": "Disconnected",
-        "on-click": "nm-connection-editor"
-    }, 
+    "custom/orbit": {
+    "exec": "orbit waybar-status",
+    "return-type": "json",
+    "interval": 10,
+    "on-click": "orbit toggle",
+    "format": "󱗿"
+},
 
 
 

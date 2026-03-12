@@ -1,12 +1,13 @@
 {
     "$schema": "/etc/xdg/swaync/configSchema.json",
+
     "positionX": "right",
     "positionY": "top",
-    "cssPriority": "user",
 
     "layer": "overlay",
     "control-center-layer": "top",
     "layer-shell": true,
+    "cssPriority": "user",
 
     "control-center-width": 400,
     "control-center-height": 1035,
@@ -34,7 +35,7 @@
     "script-fail-notify": true,
 
     "notification-visibility": {
-        "example-name": {
+        "spotify-low": {
             "state": "muted",
             "urgency": "Low",
             "app-name": "Spotify"
@@ -48,17 +49,21 @@
         "backlight",
         "dnd",
         "title",
-        "notifications",
-        "network",
-        "bluetooth",
-        "battery"
+        "notifications"
     ],
 
     "widget-config": {
-        "mpris": {
-            "image-size": 60,
-            "image-radius": 0
+
+        "title": {
+            "text": "Notifications",
+            "clear-all-button": true,
+            "button-text": " 󰆴 "
         },
+
+        "dnd": {
+            "text": "Do Not Disturb"
+        },
+
         "volume": {
             "label": "  󰕾 ",
             "expand-button-label": " ",
@@ -67,40 +72,39 @@
             "show-per-app-icon": false,
             "show-per-app-label": true
         },
+
         "backlight": {
             "label": " 󰃟 "
         },
-        "dnd": {
-            "text": "Do Not Disturb"
+
+        "mpris": {
+            "image-size": 60,
+            "image-radius": 0
         },
-        "title": {
-            "text": "Notifications Center",
-            "clear-all-button": true,
-            "button-text": " 󰆴 "
-        },
+
         "buttons-grid": {
-            "actions": [ 
+            "actions": [
                 {
-                    "label": " ",
+                    "label": " ",
                     "type": "toggle",
                     "active": false,
                     "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && pactl set-source-mute @DEFAULT_SOURCE@ 1 || pactl set-source-mute @DEFAULT_SOURCE@ 0'",
                     "update-command": "sh -c '[[ $(pactl get-source-mute @DEFAULT_SOURCE@) == *yes* ]] && echo true || echo false'"
                 },
                 {
-                    "label": " ",
+                    "label": " ",
                     "type": "toggle",
                     "active": false,
                     "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && pactl set-sink-mute @DEFAULT_SINK@ 1 || pactl set-sink-mute @DEFAULT_SINK@ 0'",
                     "update-command": "sh -c '[[ $(pactl get-sink-mute @DEFAULT_SINK@) == *yes* ]] && echo true || echo false'"
                 },
                 {
-                    "label": "",                   
-		    "type": "command",
+                    "label": "",
+                    "type": "command",
                     "command": "hyprpicker"
                 },
                 {
-                    "label": " ",
+                    "label": " ",
                     "type": "command",
                     "command": "waypaper"
                 },
@@ -110,33 +114,6 @@
                     "command": "~/.config/hypr/scripts/emoji-picker.sh"
                 }
             ]
-        },
-        "network": {
-            "format": "{icon}",
-            "format-icons": {
-                "wifi": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-                "ethernet": "󰈀",
-                "linked": "󰈁",
-                "disconnected": "󰤮"
-            },
-            "tooltip-format-wifi": "Signal Strength: {signalStrength}% | Down: {bandwidthDownBits}, Up: {bandwidthUpBits}",
-            "on-click": "nm-connection-editor"
-        },
-        "bluetooth": {
-            "format": "{icon}",
-            "format-icons": {
-                "on": "󰂯",
-                "off": "󰂱"
-            },
-            "tooltip-format": "{connectedDevices}", 
-            "on-click": "blueman-manager",
-            "on-right-click": "bash -c 'state=$(bluetoothctl show | grep Powered | awk \"{print \\$2}\"); if [ \"$state\" = \"yes\" ]; then echo power off | bluetoothctl; else echo power on | bluetoothctl; fi'"
-        },
-        "battery": {
-            "format": "{icon}",
-            "format-icons": ["󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"],
-            "format-charging": "{icon}",
-            "format-plugged": "{icon}"
         }
     }
 }

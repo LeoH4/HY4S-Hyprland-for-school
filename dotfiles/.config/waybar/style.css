@@ -29,7 +29,7 @@ window#waybar {
     min-width: 28px;
     color: #3c3836;
     border-radius: 2px;
-    background: #ebdbb2;
+    background: rgb(235, 219, 178);
     margin: 2px 1px;
     font-size: 20px;
     box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.4);
@@ -118,7 +118,6 @@ window#waybar {
 
 /* ------------------- Right modules ------------------- */
 #pulseaudio,
-#network,
 #bluetooth,
 #swaync {
     background: #ebdbb2;
@@ -132,9 +131,25 @@ window#waybar {
     transition: all 0.3s;
 }
 #pulseaudio:hover,
-#network:hover,
 #bluetooth:hover,
 #swaync:hover {
+    background: #504945;
+    color: #fbf1c7;
+}
+
+/* ------------------- Orbit (WiFi/Bluetooth) ------------------- */
+#custom-orbit {
+    background: #458588;
+    color: #1d2021;
+    border-radius: 8px 2px 2px 8px;
+    padding: 1px 6px;
+    margin: 2px 1px;
+    font-size: 20px;
+    min-width: 32px;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+#custom-orbit:hover {
     background: #504945;
     color: #fbf1c7;
 }
@@ -151,7 +166,6 @@ window#waybar {
     box-shadow: inset 0px -2px 4px rgba(0,0,0,0.2);
     transition: all 0.3s;
 }
-
 #custom-bluetooth:hover {
     background: #504945;
     color: #fbf1c7;
@@ -169,28 +183,9 @@ window#waybar {
     box-shadow: inset 0px -2px 4px rgba(0,0,0,0.2);
     transition: all 0.3s;
 }
-
 #custom-bluetooth-device:hover {
     background: #504945;
     color: #fbf1c7;
-}
-
-/* ------------------- Network ------------------- */
-#network.disconnected {
-    background: #cc241d;
-    color: #fbf1c7;
-}
-#network.wifi {
-    background: #ebdbb2;
-    color: #3c3836;
-}
-#network.ethernet {
-    background: #83a598;
-    color: #fbf1c7;
-}
-#network.wifi.linked {
-    background: #b8bb26;
-    color: #3c3836;
 }
 
 /* ------------------- Launcher & Power ------------------- */
@@ -281,18 +276,15 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #battery:hover {
     background: #504945;
     color: #fbf1c7;
 }
-
 #battery.critical {
     background: #cc241d;
     color: #fbf1c7;
     animation: blink 1s linear infinite alternate;
 }
-
 #battery.warning {
     background: #fabd2f;
     color: #3c3836;
@@ -309,7 +301,6 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #power-profiles-daemon.not-battery:hover {
     background: #504945;
     color: #fbf1c7;
@@ -334,7 +325,6 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #custom-utilities-icon:hover {
     background: #504945;
     color: #fbf1c7;
@@ -354,7 +344,6 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #custom-keybinds.not-utilities:hover,
 #custom-config-navigation.not-utilities:hover,
 #custom-clipse.not-utilities:hover {
@@ -366,7 +355,7 @@ menuitem:hover {
 #custom-keybinds {
     background: #ebdbb2;
     color: #3c3836;
-    border-radius: 2px 2px 2px 2px;
+    border-radius: 2px;
     padding: 1px 3px;
     margin: 2px 1px;
     font-size: 22px;
@@ -374,7 +363,6 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #custom-keybinds:hover {
     background: #504945;
     color: #fbf1c7;
@@ -391,7 +379,6 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #custom-config-navigation:hover {
     background: #504945;
     color: #fbf1c7;
@@ -400,7 +387,7 @@ menuitem:hover {
 #custom-clipse {
     background: #ebdbb2;
     color: #3c3836;
-    border-radius: 2px 2px 2px 2px;
+    border-radius: 2px;
     padding: 1px 3px;
     margin: 2px 1px;
     font-size: 20px;
@@ -408,7 +395,6 @@ menuitem:hover {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #custom-clipse:hover {
     background: #504945;
     color: #fbf1c7;
@@ -418,7 +404,7 @@ menuitem:hover {
 #power-profiles-daemon {
     background: #ebdbb2;
     color: #3c3836;
-    border-radius: 2px 2px 2px 2px;
+    border-radius: 2px;
     padding: 1px 3px;
     margin: 2px 1px;
     font-size: 20px;
@@ -441,7 +427,6 @@ tooltip {
     border-radius: 8px;
     padding: 8px;
 }
-
 tooltip label {
     color: #3c3836;
     font-size: 13px;
@@ -459,7 +444,6 @@ tooltip label {
     box-shadow: inset 0px -2px 4px rgba(0,0,0,0.2);
     transition: all 0.3s;
 }
-
 #custom-updates:hover {
     background: #8ec07c;
     color: #fbf1c7;
@@ -469,7 +453,7 @@ tooltip label {
 #custom-countdown {
     background: #ebdbb2;
     color: #3c3836;
-    border-radius: 8px 2px 2px 8px;
+    border-radius: 8px;
     padding: 1px 3px;
     margin: 2px 1px;
     font-size: 14px;
@@ -478,12 +462,10 @@ tooltip label {
     box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
-
 #custom-countdown:hover {
     background: #504945;
     color: #fbf1c7;
 }
-
 #custom-countdown.expired {
     background: #fb4934;
     color: #3c3836;
@@ -495,12 +477,6 @@ tooltip label {
 }
 
 @keyframes blink-critical {
-    0% {
-        background: #fb4934;
-        color: #3c3836;
-    }
-    100% {
-        background: #282828;
-        color: #fb4934;
-    }
+    0%   { background: #fb4934; color: #3c3836; }
+    100% { background: #282828; color: #fb4934; }
 }
