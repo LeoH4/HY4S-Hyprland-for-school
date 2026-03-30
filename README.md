@@ -2,11 +2,12 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+Hyprland+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2">
 </p>
 
-<h1>【 My Hyprland dotfiles 】</h1>
+<h1>【 My Hyprland dotfiles 】- v0.1.0</h1>
 
 [![Last Commit](https://img.shields.io/github/last-commit/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/commits/main)
 [![Stars](https://img.shields.io/github/stars/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/stargazers)
 [![Repo Size](https://img.shields.io/github/repo-size/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school)
+[![Version](https://img.shields.io/badge/version-0.1.0-DCFFC2?style=for-the-badge&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/releases)
 
 <!-- Nav Bar -->
 <div align="left">
@@ -14,6 +15,7 @@
   <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
   <a href="#screenshots"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
   <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#status"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Status <br> </kbd></a>&ensp;&ensp;
   <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
   <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
 </div><br>
@@ -105,11 +107,11 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 **Coming Soon**
 </details>
 
-<a id="Installation"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Installation" />
+<a id="setup"></a>
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Setup" />
 
 <details>
-<summary>Auto Install</summary>
+<summary>⚡ Auto Install</summary>
 
 > **Requires a fresh Arch / EndeavourOS install with an internet connection.**  
 > This will install `yay`, clone the repo to `~/Projects/HY4S/`, install all packages, stow configs, and set fish as your default shell.
@@ -126,7 +128,7 @@ bash ~/Projects/HY4S/update.sh
 </details>
 
 <details>
-<summary>Manual Install</summary>
+<summary>🛠️ Manual Install</summary>
 
 **1. Install dependencies**
 ```bash
@@ -171,11 +173,31 @@ Reboot and you're good to go.
 
 </details>
 
-<a id="future-plans"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Future+Plans" />
+<a id="status"></a>
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Status" />
 
-- [ ] Add color scheme integration (pywal/matugen)
-- [ ] Add additional themes with a theme selector (rofi)
+### In Progress
+- [ ] Theme selector (rofi-based)
+- [ ] New swayNC config
+- [ ] Wallpaper select integration
+
+### Known Issues
+
+> [!CAUTION]
+> **Rofi launcher path is hardcoded**
+> `$menu` points to `~/.config/rofi/launchers/type-1/launcher.sh`. If rofi configs are missing or stow fails, the launcher keybind will silently do nothing.
+
+> [!CAUTION]
+> **SwayNC config is broken**
+> The icons are not being displayed, and some scripts are outdated
+
+> [!WARNING]
+> **fish shell change requires re-login**
+> Running the install script sets fish as default via `chsh`, but it won't take effect until you log out and back in. Your first session after install will still be in bash.
+
+> [!WARNING]
+> **awww-daemon must be running for wallpapers**
+> If `awww-daemon` isn't launched (e.g. autostart.conf not stowed correctly), `waytrogen` and any wallpaper keybinds will fail silently.
 
 <a id="packages"></a>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Packages" />
