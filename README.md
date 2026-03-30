@@ -10,12 +10,12 @@
 
 <!-- Nav Bar -->
 <div align="left">
-  <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
-  <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
-  <a href="#screenshots"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
-  <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
+  <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
+  <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
+  <a href="#screenshots"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
+  <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
 </div><br>
 
 <a id="overview"></a>
@@ -78,10 +78,6 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 <details>
 <summary>Wallpapers</summary>
 <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/0ab8c43e-b87e-4d06-96a5-775de745f255" /> <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/1940bf84-8ac0-404a-824c-7ea1d04276cf" /> <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/8e92b132-3238-482e-abab-06bdf0214546" /> <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/4e78b2d3-714b-42ca-bdb7-9dfae3667ab3" />
-
-
-
-
 </details>
 
 <details>
@@ -109,10 +105,71 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 **Coming Soon**
 </details>
 
-<a id="setup"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Setup" />
-**Coming soon**  
-- Install instructions coming soon, maybe even an install script
+<a id="Installation"></a>
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Installation" />
+
+<details>
+<summary>Auto Install</summary>
+
+> **Requires a fresh Arch / EndeavourOS install with an internet connection.**  
+> This will install `yay`, clone the repo to `~/Projects/HY4S/`, install all packages, stow configs, and set fish as your default shell.
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/LeoH4/HY4S-Hyprland-for-school/main/install.sh)
+```
+
+To update packages and configs after a future push:
+```bash
+bash ~/Projects/HY4S/update.sh
+```
+
+</details>
+
+<details>
+<summary>Manual Install</summary>
+
+**1. Install dependencies**
+```bash
+sudo pacman -S --needed git stow base-devel
+```
+
+**2. Install yay (AUR helper)**
+```bash
+git clone https://aur.archlinux.org/yay.git ~/yay-tmp
+cd ~/yay-tmp && makepkg -si --noconfirm
+cd ~ && rm -rf ~/yay-tmp
+```
+
+**3. Clone the repo**
+```bash
+mkdir -p ~/Projects
+git clone https://github.com/LeoH4/HY4S-Hyprland-for-school.git ~/Projects/HY4S
+```
+
+**4. Install packages**
+```bash
+yay -S --needed $(grep -v '^\s*#' ~/Projects/HY4S/packages.txt | grep -v '^\s*$' | tr '\n' ' ')
+```
+
+**5. Stow dotfiles**
+```bash
+stow -d ~/Projects/HY4S -t ~/ dotfiles
+```
+
+**6. Set fish as default shell**
+```bash
+chsh -s $(which fish)
+```
+
+**7. Enable services**
+```bash
+sudo systemctl enable --now NetworkManager
+sudo systemctl enable --now bluetooth
+```
+
+Reboot and you're good to go.
+
+</details>
 
 <a id="future-plans"></a>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Future+Plans" />
@@ -139,4 +196,3 @@ Managed with GNUstow
 - https://github.com/mylinuxforwork/dotfiles
 - https://github.com/end-4/dots-hyprland?tab=readme-ov-file
 - **And many more...**
-
