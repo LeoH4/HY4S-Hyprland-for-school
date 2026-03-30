@@ -1,0 +1,133 @@
+# =============================================================================
+#  HY4S packages.txt
+#  One package per line. Lines starting with # are ignored.
+#  Both pacman and AUR packages are supported (installed via yay).
+#  Add a package here and run update.sh to sync.
+# =============================================================================
+
+# ── Window Manager ────────────────────────────────────────────────────────────
+hyprland
+hypridle
+hyprlock
+hyprpaper
+hyprpicker
+hyprgraphics
+hyprlang
+hyprutils
+xdg-desktop-portal-hyprland
+
+# ── Bar ───────────────────────────────────────────────────────────────────────
+waybar
+
+# ── Wallpaper ─────────────────────────────────────────────────────────────────
+# swww is used via swww-daemon in autostart.conf
+swww
+# waytrogen — AUR wallpaper manager GUI
+waytrogen
+
+# ── Terminal ──────────────────────────────────────────────────────────────────
+foot
+kitty
+alacritty
+
+# ── Launcher ──────────────────────────────────────────────────────────────────
+rofi
+
+# ── Shell ─────────────────────────────────────────────────────────────────────
+fish
+
+# ── Notifications ─────────────────────────────────────────────────────────────
+swaync
+
+# ── OSD (volume/brightness overlay) ──────────────────────────────────────────
+# swayosd-server is launched in autostart.conf
+swayosd
+
+# ── Clipboard ─────────────────────────────────────────────────────────────────
+# clipse -listen is launched in exec-once.conf
+clipse
+clipse-gui
+
+# ── Scratchpad ────────────────────────────────────────────────────────────────
+# hyprscratch init clean eager is launched in exec-once.conf
+hyprscratch
+
+# ── Animations ────────────────────────────────────────────────────────────────
+# awww-daemon is launched in exec-once.conf
+awww
+
+# ── Screenshots ───────────────────────────────────────────────────────────────
+grim
+slurp
+swappy
+
+# ── Media / Brightness ────────────────────────────────────────────────────────
+brightnessctl
+playerctl
+pavucontrol
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+gst-libav
+gst-plugin-pipewire
+gst-plugins-bad
+gst-plugins-ugly
+
+# ── Bluetooth ─────────────────────────────────────────────────────────────────
+blueman
+bluez
+bluez-utils
+
+# ── Network ───────────────────────────────────────────────────────────────────
+networkmanager
+network-manager-applet
+
+# ── Theming ───────────────────────────────────────────────────────────────────
+nwg-look
+kvantum
+kvantum-qt5
+qt5ct
+qt6ct
+# matugen — AUR colour scheme generator
+matugen-bin
+
+# ── Fonts ─────────────────────────────────────────────────────────────────────
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
+ttf-bitstream-vera
+ttf-dejavu
+ttf-liberation
+ttf-opensans
+cantarell-fonts
+
+# ── File Manager ──────────────────────────────────────────────────────────────
+thunar
+thunar-archive-plugin
+file-roller
+ffmpegthumbnailer
+
+# ── Apps ──────────────────────────────────────────────────────────────────────
+firefox
+obsidian
+vscodium-bin
+spotify
+neovim
+
+# ── System Utilities ──────────────────────────────────────────────────────────
+btop
+fastfetch
+cava
+duf
+jq
+tldr
+stow
+git
+wget
+curl
+python
+upower
+power-profiles-daemon
