@@ -2,13 +2,12 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+Hyprland+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2">
 </p>
 
-<h1>【 My Hyprland dotfiles 】- v0.1.0</h1>
+<h1>【 My Hyprland dotfiles 】- v0.7.5</h1>
 
 [![Last Commit](https://img.shields.io/github/last-commit/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/commits/main)
 [![Stars](https://img.shields.io/github/stars/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/stargazers)
 [![Repo Size](https://img.shields.io/github/repo-size/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school)
-[![Version](https://img.shields.io/badge/version-0.1.0-DCFFC2?style=for-the-badge&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/releases)
-
+[![Pre-Release](https://img.shields.io/github/v/tag/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=f9d71c&label=Pre-Release&logoColor=000000&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/releases)
 <!-- Nav Bar -->
 <div align="left">
   <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
@@ -111,7 +110,7 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Setup" />
 
 <details>
-<summary>⚡ Auto Install</summary>
+<summary>Auto Install</summary>
 
 > **Requires a fresh Arch / EndeavourOS install with an internet connection.**  
 > This will install `yay`, clone the repo to `~/Projects/HY4S/`, install all packages, stow configs, and set fish as your default shell.
@@ -128,7 +127,7 @@ bash ~/Projects/HY4S/update.sh
 </details>
 
 <details>
-<summary>🛠️ Manual Install</summary>
+<summary>Manual Install</summary>
 
 **1. Install dependencies**
 ```bash
@@ -180,6 +179,7 @@ Reboot and you're good to go.
 - [ ] Theme selector (rofi-based)
 - [ ] New swayNC config
 - [ ] Wallpaper select integration
+- [ ] sddm
 
 ### Known Issues
 
