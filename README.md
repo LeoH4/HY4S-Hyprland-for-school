@@ -1,26 +1,26 @@
 <p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+Hyprland+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=DCFFC2">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+Hyprland+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=b8bb26">
 </p>
 
 <h1>【 My Hyprland dotfiles 】- v0.7.5</h1>
 
-[![Last Commit](https://img.shields.io/github/last-commit/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=git&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/commits/main)
-[![Stars](https://img.shields.io/github/stars/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=starship&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/stargazers)
-[![Repo Size](https://img.shields.io/github/repo-size/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=DCFFC2&logo=protondrive&logoColor=D9E0EE&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school)
-[![Pre-Release](https://img.shields.io/github/v/tag/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=f9d71c&label=Pre-Release&logoColor=000000&labelColor=1E202B)](https://github.com/LeoH4/HY4S-Hyprland-for-school/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=b8bb26&logo=git&logoColor=ebdbb2&labelColor=282828)](https://github.com/LeoH4/HY4S-Hyprland-for-school/commits/main)
+[![Stars](https://img.shields.io/github/stars/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=b8bb26&logo=starship&logoColor=ebdbb2&labelColor=282828)](https://github.com/LeoH4/HY4S-Hyprland-for-school/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=b8bb26&logo=protondrive&logoColor=ebdbb2&labelColor=282828)](https://github.com/LeoH4/HY4S-Hyprland-for-school)
+[![Pre-Release](https://img.shields.io/github/v/tag/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=fabd2f&label=Pre-Release&logoColor=282828&labelColor=282828)](https://github.com/LeoH4/HY4S-Hyprland-for-school/releases)
 <!-- Nav Bar -->
 <div align="left">
-  <a href="#overview"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
-  <a href="#keybinds"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
-  <a href="#screenshots"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#status"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Status <br> </kbd></a>&ensp;&ensp;
-  <a href="#future-plans"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
-  <a href="#packages"><kbd style="font-size:28px; background-color:#1E202B; color:#DCFFC2;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
+  <a href="#overview"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Overview <br> </kbd></a>&ensp;&ensp;
+  <a href="#keybinds"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
+  <a href="#screenshots"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Screenshots <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#status"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Status <br> </kbd></a>&ensp;&ensp;
+  <a href="#future-plans"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Future Plans <br> </kbd></a>&ensp;&ensp;
+  <a href="#packages"><kbd style="font-size:28px; background-color:#282828; color:#b8bb26;"> <br> Packages <br> </kbd></a>&ensp;&ensp;
 </div><br>
 
 <a id="overview"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Overview" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Overview" />
 
 A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity focused features, while still maintaining a clean aesthetic.
 
@@ -74,7 +74,7 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 </details>
 
 <a id="screenshots"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Screenshots" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Screenshots" />
 
 <details>
 <summary>Wallpapers</summary>
@@ -107,7 +107,7 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 </details>
 
 <a id="setup"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Setup" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Setup" />
 
 <details>
 <summary>Auto Install</summary>
@@ -173,7 +173,7 @@ Reboot and you're good to go.
 </details>
 
 <a id="status"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Status" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Status" />
 
 ### In Progress
 - [ ] Theme selector (rofi-based)
@@ -200,7 +200,7 @@ Reboot and you're good to go.
 > If `awww-daemon` isn't launched (e.g. autostart.conf not stowed correctly), `waytrogen` and any wallpaper keybinds will fail silently.
 
 <a id="packages"></a>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Packages" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Packages" />
 
 - **Window Manager:** Hyprland  
 - **Bar:** Waybar 
@@ -213,7 +213,7 @@ Reboot and you're good to go.
 Managed with GNUstow
 
 <b id="Inspriration"></b>
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=50&color=DCFFC2&center=false&vCenter=true&width=500&lines=Inspiration" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Inspiration" />
 
 - https://github.com/mylinuxforwork/dotfiles
 - https://github.com/end-4/dots-hyprland?tab=readme-ov-file

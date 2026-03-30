@@ -1,2 +1,3 @@
 dotfiles/.config/clipse/clipboard_history.json
 dotfiles/.config/clipse/*.log
+dotfiles/.config/waybar/scripts/countdown/countdown.json
