@@ -176,12 +176,19 @@ Reboot and you're good to go.
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Status" />
 
 ### In Progress
-- [ ] Theme selector (rofi-based)
 - [ ] New swayNC config
 - [ ] Wallpaper select integration
 - [ ] sddm
 
-### Known Issues
+### Future Plans
+- [ ] Theme selector (rofi-based)
+- [ ] New themes
+- [ ] Easy system control managed by GUI
+- [ ] Seperate waybar themes
+- [ ] Quickshell
+- [ ] Matugen (Or similar)
+- [ ] Window overiew
+- [ ] Built in AI chatroom
 
 > [!CAUTION]
 > **Rofi launcher path is hardcoded**
