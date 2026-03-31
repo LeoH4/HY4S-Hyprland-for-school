@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=52&pause=50&center=false&vCenter=true&width=900&lines=HY4S+|+Hyprland+for+School;Hyprland+Rice+on+EndeavourOS;Aesthetic+productive+layout.&duration=6000&color=b8bb26">
 </p>
 
-<h1>【 My Hyprland dotfiles 】- v0.7.5</h1>
+<h1>【 My Hyprland dotfiles 】</h1>
 
 [![Last Commit](https://img.shields.io/github/last-commit/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=b8bb26&logo=git&logoColor=ebdbb2&labelColor=282828)](https://github.com/LeoH4/HY4S-Hyprland-for-school/commits/main)
 [![Stars](https://img.shields.io/github/stars/LeoH4/HY4S-Hyprland-for-school?style=for-the-badge&color=b8bb26&logo=starship&logoColor=ebdbb2&labelColor=282828)](https://github.com/LeoH4/HY4S-Hyprland-for-school/stargazers)
