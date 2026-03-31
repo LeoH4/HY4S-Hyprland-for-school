@@ -1,0 +1,5 @@
+[flavor]
+dark = "gruvbox-dark"
+
+[manager]
+show_hidden = true
