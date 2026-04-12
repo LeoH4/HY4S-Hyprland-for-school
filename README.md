@@ -108,6 +108,11 @@ A stable, polished Hyprland setup using Arch linux/EndeavourOS with productivity
 
 <a id="setup"></a>
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Setup" />
+> [!CAUTION]
+> **No SDDM is currently installed**
+> The start command is:
+> ```bash
+> start-hyprland
 
 <details>
 <summary>Auto Install</summary>
