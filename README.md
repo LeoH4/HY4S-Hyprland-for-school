@@ -181,19 +181,32 @@ Reboot and you're good to go.
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=50&color=b8bb26&center=false&vCenter=true&width=500&lines=Status" />
 
 ### In Progress
-- [ ] New swayNC config
-- [ ] Wallpaper select integration
-- [ ] sddm
+- [ ] Quickshell Dashboard 
 
 ### Future Plans
-- [ ] Theme selector (rofi-based)
+- [ ] Quickshell control panel
+- [ ] Quickshell music player
+- [ ] Wallpaper select integration (Quickshell-based)
+- [ ] sddm
+- [ ] Theme selector (Quickshell-based)
 - [ ] New themes
 - [ ] Easy system control managed by GUI
-- [ ] Seperate waybar themes
+- [ ] Quickshell bar
 - [ ] Quickshell
 - [ ] Matugen (Or similar)
 - [ ] Window overiew
 - [ ] Built in AI chatroom
+
+### Complete
+- [X] Waybar
+- [X] Keybind cheatsheet
+- [X] Custom config navigator
+- [X] Clipboard history
+- [X] Bluetooth device info
+- [X] Wifi display
+- [X] Wallpaper selection
+- [X] System updating script with UI
+- [X] Gruvbox theme
 
 > [!CAUTION]
 > **Rofi launcher path is hardcoded**
