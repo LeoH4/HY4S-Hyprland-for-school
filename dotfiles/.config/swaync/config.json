@@ -1,119 +1,133 @@
 {
-    "$schema": "/etc/xdg/swaync/configSchema.json",
-
-    "positionX": "right",
-    "positionY": "top",
-
-    "layer": "overlay",
-    "control-center-layer": "top",
-    "layer-shell": true,
-    "cssPriority": "user",
-
-    "control-center-width": 400,
-    "control-center-height": 1035,
-    "control-center-margin-top": 0,
-    "control-center-margin-bottom": 10,
-    "control-center-margin-right": 1,
-    "control-center-margin-left": 0,
-
-    "notification-window-width": 380,
-    "notification-icon-size": 50,
-    "notification-body-image-height": 200,
-    "notification-body-image-width": 200,
-
-    "timeout": 8,
-    "timeout-low": 6,
-    "timeout-critical": 0,
-
-    "fit-to-screen": false,
-    "keyboard-shortcuts": true,
-    "image-visibility": "when-available",
-    "transition-time": 200,
-    "hide-on-clear": false,
-    "hide-on-action": true,
-    "text-empty": "No Notifications",
-    "script-fail-notify": true,
-
-    "notification-visibility": {
-        "spotify-low": {
-            "state": "muted",
-            "urgency": "Low",
-            "app-name": "Spotify"
-        }
-    },
-
-    "widgets": [
-        "buttons-grid",
-        "mpris",
-        "volume",
-        "backlight",
-        "dnd",
-        "title",
-        "notifications"
-    ],
-
-    "widget-config": {
-
-        "title": {
-            "text": "Notifications",
-            "clear-all-button": true,
-            "button-text": " 󰆴 "
-        },
-
-        "dnd": {
-            "text": "Do Not Disturb"
-        },
-
-        "volume": {
-            "label": "  󰕾 ",
-            "expand-button-label": " ",
-            "collapse-button-label": " ",
-            "show-per-app": true,
-            "show-per-app-icon": false,
-            "show-per-app-label": true
-        },
-
-        "backlight": {
-            "label": " 󰃟 "
-        },
-
-        "mpris": {
-            "image-size": 60,
-            "image-radius": 0
-        },
-
-        "buttons-grid": {
-            "actions": [
-                {
-                    "label": " ",
-                    "type": "toggle",
-                    "active": false,
-                    "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && pactl set-source-mute @DEFAULT_SOURCE@ 1 || pactl set-source-mute @DEFAULT_SOURCE@ 0'",
-                    "update-command": "sh -c '[[ $(pactl get-source-mute @DEFAULT_SOURCE@) == *yes* ]] && echo true || echo false'"
-                },
-                {
-                    "label": " ",
-                    "type": "toggle",
-                    "active": false,
-                    "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && pactl set-sink-mute @DEFAULT_SINK@ 1 || pactl set-sink-mute @DEFAULT_SINK@ 0'",
-                    "update-command": "sh -c '[[ $(pactl get-sink-mute @DEFAULT_SINK@) == *yes* ]] && echo true || echo false'"
-                },
-                {
-                    "label": "",
-                    "type": "command",
-                    "command": "hyprpicker"
-                },
-                {
-                    "label": " ",
-                    "type": "command",
-                    "command": "waypaper"
-                },
-                {
-                    "label": "😀",
-                    "type": "command",
-                    "command": "~/.config/hypr/scripts/emoji-picker.sh"
-                }
-            ]
-        }
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "ignore-gtk-theme": true,
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "top",
+  "layer-shell": true,
+  "layer-shell-cover-screen": false,
+  "cssPriority": "highest",
+  "control-center-margin-top": 12,
+  "control-center-margin-bottom": 0,
+  "control-center-margin-right": 12,
+  "control-center-margin-left": 0,
+  "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "timeout": 9,
+  "timeout-low": 6,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "relative-timestamps": true,
+  "control-center-width": 450,
+  "control-center-height": 600,
+  "notification-window-width": 500,
+  "keyboard-shortcuts": true,
+  "notification-grouping": true,
+  "image-visibility": "when-available",
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "text-empty": "No Notifications",
+  "script-fail-notify": true,
+  "notification-visibility": {
+    "example-name": {
+      "state": "muted",
+      "urgency": "Low",
+      "app-name": "Spotify"
     }
+  },
+  "widgets": [
+    "title",
+    "buttons-grid",
+    "mpris",
+    "volume",
+    "backlight",
+    "dnd",
+    "notifications"
+  ],
+  "widget-config": {
+    "notifications": {
+      "vexpand": true
+    },
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "mpris": {
+      "autohide": false,
+      "show-album-art": "always",
+      "loop-carousel": true
+    },
+    "volume": {
+      "device": "default",
+      "label": "\ueb51",
+      "slider": true
+    },
+    "backlight": {
+      "device": "brightnessctl",
+      "label": "\ueb7e",
+      "slider": true,
+      "min": 10
+    },
+    "buttons-grid": {
+      "buttons-per-row": 4,
+      "actions": [
+        {
+          "label": "   \uea37 Bluetooth   ",
+          "type": "button",
+          "active": true,
+          "command": "swaync-client -t -sw;sh -c 'adw-bluetooth'"
+        },
+        {
+          "label": "\ueb0d",
+          "type": "button",
+          "active": true,
+          "command": "sh -c ' killall FixiApp || python3 ~/.dotfiles/Fixi/apps/fixiPower.py'"
+        },
+        {
+          "label": "\uea7a",
+          "type": "button",
+          "active": true,
+          "command": "swaync-client -t -sw;sh -c '~/.dotfiles/config/.config/rofi/scripts/rofi-cliphist.sh'"
+        },
+        {
+          "label": "\ufaf8",
+          "type": "toggle",
+          "active": false,
+          "command": "hyprshade toggle blue-light-filter"
+        },
+        {
+          "label": "   \ueb52 Ethernet   ",
+          "type": "button",
+          "active": true,
+          "command": "swaync-client -t -sw;sleep 0.5;sh -c '~/.dotfiles/config/.config/rofi/scripts/rofi-wifi.sh'"
+        },
+        {
+          "label": "\ueaea",
+          "type": "button",
+          "active": true,
+          "command": "swaync-client -t -sw;sh -c 'killall FixiApp || python3 ~/.dotfiles/Fixi/apps/fixiTools.py'"
+        },
+        {
+          "label": "\uea45",
+          "type": "button",
+          "active": true,
+          "command": "swaync-client -t -sw;sh -c 'rofi -show drun'"
+        },
+        {
+          "label": "\ufb26",
+          "type": "button",
+          "active": true,
+          "command": "swaync-client -t -sw;sh -c 'rofi -show calc -no-show-match -no-sort'"
+        }
+      ]
+    }
+  }
 }
